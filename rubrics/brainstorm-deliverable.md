@@ -7,8 +7,7 @@ This rubric is intended to help guide expectations and increase transparency. Ho
 - Uses well formatted markdown throughout this document (headers for each section, lists where appropriate, hyperlinked words, etc.) (**1 point**)
 
 ## Domain of Interest (13 points)
-- Why are you interested in this field/domain? Describes in at least 2 - 3 sentences why the group is interested in this area. May be personal, or related to pertinence of the domain. (**1 point**)
-We choose CO2 emission as our field of study due to our shared Interest on the climate change and natural environments. One of our team member also major in Geophysics which
+- We choose CO2 emission as our field of study due to our shared interest in climate change and natural environments. At the same time, we think the natural environment plays an important role in our daily life, so we want to get to know more about the correlation between humans and the environment.
 - Examples of other data driven projects related to this domain (**6 points**, 2 points each)?
     - Provides link to a data driven projects (**1 point**)
     - Briefly describes the project in 1 - 2 sentences (**1 points**)
