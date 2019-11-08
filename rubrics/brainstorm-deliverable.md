@@ -8,6 +8,7 @@ This rubric is intended to help guide expectations and increase transparency. Ho
 
 ## Domain of Interest (13 points)
 - Why are you interested in this field/domain? Describes in at least 2 - 3 sentences why the group is interested in this area. May be personal, or related to pertinence of the domain. (**1 point**)
+We choose CO2 emission as our field of study due to our shared Interest on the climate change and natural environments. One of our team member also major in Geophysics which
 - Examples of other data driven projects related to this domain (**6 points**, 2 points each)?
     - Provides link to a data driven projects (**1 point**)
     - Briefly describes the project in 1 - 2 sentences (**1 points**)
@@ -17,7 +18,7 @@ This rubric is intended to help guide expectations and increase transparency. Ho
     - Describes how the question can be answered using data (e.g., a specific comparison within or analysis of the data that answers the question) (**1 point**)
 
 ## Finding Data (**15 points**, 5 points each)
-For each identified data source, 
+For each identified data source,
 - Link to URL where data is from, and download the data into the project repo in a `data/` folder (**1 point**)?
 - Description of how was the data collected or generated (**1 point**)?
 - How many observations (rows) and features (columns) are in your data(**1 point**)?
