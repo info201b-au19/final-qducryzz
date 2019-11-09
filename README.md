@@ -32,7 +32,7 @@ sectors in the developing regions of the world.
 ## Finding Data
 
 ### Data on Greenhouse Emissions
-[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv), this shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
+>[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv), this shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
 
 Source: Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy
 
@@ -44,9 +44,10 @@ Questions: The data can be used to track the changing in total greenhouse emissi
 
 ### Data on the Human Development Index
 >[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), shows the composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country from 1980 to 2013
+
 Source: UNDP Human Development Reports Office (HDRO)
 
->Number of Rows: 2122
+Number of Rows: 2122
 
 Number of Columns: 9
 
