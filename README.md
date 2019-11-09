@@ -3,6 +3,7 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
 ## Domain of Interest
 We choose CO2 emission as our field of study due to our shared interest in climate change and natural environments. At the same time, we think the natural environment plays an important role in our daily life, so we want to get to know more about the correlation between humans and the environment.
 
+Some existing projects in this domain:
 #### Project 1:
 >[Alaska Ocean Acidification Research: Autonomous Observations of Ocean Acidification in Alaska Coastal Seas](https://oceanacidification.noaa.gov/CurrentProjects/GulfofAlaska.aspx#)
 
@@ -28,3 +29,13 @@ sectors in the developing regions of the world.
 
 #### Summary
 >The project was published online in 2015 addressing how economic output around the world been affected by changes in temperature and precipitation and implication of the potential future impacts of climate change. The result shows that changes in temperature have substantially shaped economic growth in both rich and poor countries over the last half-century, and that future warming is likely to reduce global economic output, relative to a world without climate change.
+
+Our questions:
+#### Question 1:
+>How CO2 emissions per capita is related to total economic output?
+
+#### Question 2:
+>How greenhouse emissions of each country is related to quality of life for the residents?
+
+#### Question 3:
+>How an increase in emission 
