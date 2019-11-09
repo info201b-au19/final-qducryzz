@@ -1,8 +1,7 @@
 # Final Project Brainstorm
 Use this `REAMDE.md` file to describe your final project (as detailed on Canvas).
 ## Domain of Interest
-Our group wants to
-
+We choose CO2 emission as our field of study due to our shared interest in climate change and natural environments. At the same time, we think the natural environment plays an important role in our daily life, so we want to get to know more about the correlation between humans and the environment.
 
 #### Project 1:
 >[Alaska Ocean Acidification Research: Autonomous Observations of Ocean Acidification in Alaska Coastal Seas](https://oceanacidification.noaa.gov/CurrentProjects/GulfofAlaska.aspx#)
