@@ -4,13 +4,13 @@ Use this `REAMDE.md` file to describe your final project (as detailed on Canvas)
 Our group wants to
 
 
-#### Project:
+#### Project 1:
 >[Alaska Ocean Acidification Research: Autonomous Observations of Ocean Acidification in Alaska Coastal Seas](https://oceanacidification.noaa.gov/CurrentProjects/GulfofAlaska.aspx#)
 
 #### Summary
 >The project is run by JESSICA CROSS, NOAA ALASKA FISHERIES SCIENCE CENTER giving new insights into the seasonal progression of OA events caused by the progressive accumulation of anthropogenic CO2 into the region's coastal seas. The mooring and cruise data can also be used as an early warning system for stakeholders around the state, as well as to provide information for other types of OA research.
 
-#### Project:
+#### Project 2:
 >[Global Carbon Project
 The Science Framework
 and Implementation](https://www.globalcarbonproject.org/global/pdf/GCPFrameworkFinal.pdf)
@@ -24,7 +24,7 @@ relevance, such as the management strategies and sustainable regional developmen
 stabilization of carbon dioxide in the atmosphere, and seeks g to engage the industrial and energy sectors as well
 as the economic development and resource management
 sectors in the developing regions of the world.
-#### Project
+#### Project 3：
 >[Global Non-linear Effect of Temperature on Economic Production](https://web.stanford.edu/~mburke/climate/index.html)
 
 #### Summary
