@@ -33,44 +33,39 @@ sectors in the developing regions of the world.
 #### Question 1:
 >How CO2 emissions per capita is related to total economic output?
 
-Compare the CO2 emissions level from dataset [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv) with the capita income in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), we can find the relationship of the economic output and the CO2 emission.
+Compare the CO2 emissions level from dataset [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv) with the capita income in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), we can find the relationship of the economic output and the CO2 emission.> The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
+# Dont worry ill change it
+
 #### Question 2:
 >How greenhouse emissions of each country is related to quality of life for the residents?
 
-Use the country life expectancy & education data in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476) combined with the CO2 emission in [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv), we can find the relationship of CO2 emissions in each country and the residents' life quality.
+Use the country life expectancy & education data in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476) combined with the CO2 emission in [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv), we can compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
 #### Question 3:
->How the renewable energy technology adopted in each country relate to the country economic output?
+>How the renewable energy technology adopted in each country relates to the country economic output?
 
-Compare the country renewable energy consumption from [Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs) and the country economic output from [Human Development Index](“https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476”), we can find the pattern of the economic growth with the renewable energy comsumption, draw the comparsion with CO2 emission from [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv)
+A country's renewable energy consumption shows the countries overall advancement in green energy. Our data set on renewable energy, the human development index, and emissions can be used to see how past greenhouse emission is related to present renewable energy percentage, and if sustainable energy is correlated with happier citizens.
 
 ## Finding Data
 
->**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv)**
+**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV->FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
+>
+>**Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
+>
+>**Number of Rows:** 17232
+>
+>**Number of Columns:** 10
 
-**Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
+**[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476):** Shows the overall quality of life in a country
+>**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
+>
+>**Number of Rows:** 2122
+>
+>**Number of Columns:** 9
 
-**Number of Rows:** 17232
+**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country.
+>**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
+>
+>**Number of Rows:** 264
+>
+>**Number of Columns:** 30
 
-**Number of Columns:** 10
-
-**Questions:** The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
-
->**[Human Development Index](“https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476”)**
-
-**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
-
-**Number of Rows:** 2122
-
-**Number of Columns:** 9
-
-**Questions:** Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
-
->**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs)**
-
-**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
-
-**Number of Rows:** 264
-
-**Number of Columns:** 30
-
-**Questions:** A country's renewable energy consumption shows the countries overall advancement in green energy. This dataset can be used to see how past greenhouse emission is related to present renewable energy percentage, and if sustainable energy is correlated with happier citizens.
