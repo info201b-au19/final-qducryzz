@@ -29,7 +29,7 @@ sectors in the developing regions of the world.
 #### Summary
 >The project was published online in 2015 addressing how economic output around the world been affected by changes in temperature and precipitation and implication of the potential future impacts of climate change. The result shows that changes in temperature have substantially shaped economic growth in both rich and poor countries over the last half-century, and that future warming is likely to reduce global economic output, relative to a world without climate change.
 
-Our questions:
+**Our questions:**
 #### Question 1:
 >How CO2 emissions per capita is related to total economic output?
 
@@ -41,7 +41,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 #### Question 3:
 >How the renewable energy technology adopted in each country relate to the country economic output?
 
- 
+
 
 ## Finding Data
 
