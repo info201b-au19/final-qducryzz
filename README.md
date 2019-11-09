@@ -41,11 +41,11 @@ Use the country life expectancy & education data in dataset [Human Development I
 #### Question 3:
 >How the renewable energy technology adopted in each country relate to the country economic output?
 
-
+Compare the country renewable energy consumption from [Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs) and the country economic output from [Human Development Index](“https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476”), we can find the pattern of the economic growth with the renewable energy comsumption, draw the comparsion with CO2 emission from [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv)
 
 ## Finding Data
 
->**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv):**
+>**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv)**
 
 **Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
 
@@ -65,7 +65,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 
 **Questions:** Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
 
->**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):**
+>**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs)**
 
 **Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
 
