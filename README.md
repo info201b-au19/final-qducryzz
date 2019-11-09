@@ -46,7 +46,7 @@ A country's renewable energy consumption shows the countries overall advancement
 
 ## Finding Data
 
-**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV->FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
+**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV->FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country. Will be used for Question 1.
 >
 >**Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
 >
@@ -54,14 +54,14 @@ A country's renewable energy consumption shows the countries overall advancement
 >
 >**Number of Columns:** 10
 
-**[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476):** Shows the overall quality of life in a country
+**[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476):** Shows the overall quality of life in a country. Will be used for Question 2.
 >**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
 >
 >**Number of Rows:** 2122
 >
 >**Number of Columns:** 9
 
-**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country
+**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country. Will be used for Question 3.
 >**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
 >
 >**Number of Rows:** 264
