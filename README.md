@@ -55,7 +55,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 >
 >**Questions:** The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
 
-**[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476)**
+**[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476):** Shows the overall quality of life in a country
 >**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
 >
 >**Number of Rows:** 2122
