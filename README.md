@@ -45,7 +45,6 @@ Questions: The data can be used to track the changing in total greenhouse emissi
 ### Data on the Human Development Index
 >[Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), shows the composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country from 1980 to 2013
 Source: UNDP Human Development Reports Office (HDRO)
-
 Number of Rows: 2122
 
 Number of Columns: 9
