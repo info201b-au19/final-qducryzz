@@ -45,7 +45,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 
 ## Finding Data
 
->**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country
+>**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv):**
 
 **Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
 
@@ -65,7 +65,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 
 **Questions:** Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
 
->**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country.
+>**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):**
 
 **Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
 
