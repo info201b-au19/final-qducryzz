@@ -38,7 +38,7 @@ Our questions:
 >How greenhouse emissions of each country is related to quality of life for the residents?
 
 #### Question 3:
->How an increase in emission
+>How the lifespan relate to the CO2 emission?
 
 ## Finding Data
 
