@@ -42,7 +42,7 @@ Questions: The data can be used to track the changing in total greenhouse emissi
 
 [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), shows the composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country from 1980 to 2013
 Source: UNDP Human Development Reports Office (HDRO)
-Number of Rows: 2122
+..* Number of Rows: 2122
 Number of Columns: 9
 Questions: Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have very high emissions per capita tend to have a higher quality of life.
 
