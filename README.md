@@ -1,6 +1,7 @@
 # Final Project Brainstorm
 Use this `REAMDE.md` file to describe your final project (as detailed on Canvas).
 ## Domain of Interest
+<<<<<<< HEAD
 Our group wants to
 
 
@@ -24,3 +25,7 @@ relevance, such as the management strategies and sustainable regional developmen
 stabilisation of carbon dioxide in the atmosphere, and seeks g to engage the industrial and energy sectors as well
 as the economic development and resource management
 sectors in the developing regions of the world.
+=======
+
+[Global Non-linear Effect of Temperature on Economic Production](https://web.stanford.edu/~mburke/climate/index.html)
+>>>>>>> 6d366609897fcd4ded3949cd9eec9a4b4ef63d8b
