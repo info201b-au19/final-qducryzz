@@ -47,29 +47,28 @@ Use the country life expectancy & education data in dataset [Human Development I
 
 >**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV->FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
 >
->**Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States >Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self >reporting in accordance with international treaties. Data from 1751 - 2014
-
-**Number of Rows:** 17232
-
-**Number of Columns:** 10
-
-**Questions:** The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
+>**Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
+>**Number of Rows:** 17232
+>
+>**Number of Columns:** 10
+>
+>**Questions:** The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
 
 **[Human Development Index](“https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476”)**
-**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
+>**Source:** The UNDP Human Development Reports Office (HDRO) uses a composite index of life expectancy, education, and per capita income which are used to give each country a value which shows the overall quality of life for the residents of said country. Data from 1980 to 2013.
+>
+>**Number of Rows:** 2122
+>
+>**Number of Columns:** 9
+>
+>**Questions:** Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
 
-**Number of Rows:** 2122
+>**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country.
+>
+>**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
+>
+>**Number of Rows:** 264
 
-**Number of Columns:** 9
-
-**Questions:** Can be used to compare the quality of life for residents of a country and the total CO2 emissions over time showing how countries which have had very high emissions per capita tend to have a higher quality of life.
-
-**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country.
-
-**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
-
-**Number of Rows:** 264
-
-**Number of Columns:** 30
-
-**Questions:** A country's renewable energy consumption shows the countries overall advancement in green energy. This dataset can be used to see how past greenhouse emission is related to present renewable energy percentage, and if sustainable energy is correlated with happier citizens.
+>**Number of Columns:** 30
+>
+>**Questions:** A country's renewable energy consumption shows the countries overall advancement in green energy. This dataset can be used to see how past greenhouse emission is related to present renewable energy percentage, and if sustainable energy is correlated with happier citizens.
