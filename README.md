@@ -33,12 +33,15 @@ Our questions:
 #### Question 1:
 >How CO2 emissions per capita is related to total economic output?
 
-#### U
+Compare the CO2 emissions level from dataset [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv) with the capita income in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), we can find the relationship of the economic output and the CO2 emission.
 #### Question 2:
 >How greenhouse emissions of each country is related to quality of life for the residents?
 
+Use the country life expectancy & education data in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476) combined with the CO2 emission in [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv), we can find the relationship of CO2 emissions in each country and the residents' life quality.
 #### Question 3:
->How the lifespan relate to the CO2 emission?
+>How the renewable energy technology adopted in each country relate to the country economic output?
+
+ 
 
 ## Finding Data
 
