@@ -61,7 +61,7 @@ A country's renewable energy consumption shows the countries overall advancement
 >
 >**Number of Columns:** 9
 
-**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country.
+**[Renewable Energy Data](https://data.worldbank.org/indicator/eg.fec.rnew.zs):** shows the percentage of energy production in any given country
 >**Source:** the World Bank, the International Energy Agency, and the Energy Sector Management Assistance Program. These organizations track the number of renewable energy power plants, total investment in green energy, etc.  
 >
 >**Number of Rows:** 264
