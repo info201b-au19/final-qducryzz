@@ -45,7 +45,7 @@ Use the country life expectancy & education data in dataset [Human Development I
 
 ## Finding Data
 
-**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv “CO2 Emission Per Country from the CDIAC”):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
+**[Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv):** Shows the equivalent in metric tons of CO2 greenhouse emissions per capita for each country 
 
 **Source:** Data comes from the Carbon Dioxide Information Analysis Center (CDIAC) a subdepartment of the United States Department of Energy. The CDIAC and DOE collect their data by calculating total industrial output, and by countries self reporting in accordance with international treaties. Data from 1751 - 2014
 
