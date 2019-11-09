@@ -33,8 +33,7 @@ sectors in the developing regions of the world.
 #### Question 1:
 >How CO2 emissions per capita is related to total economic output?
 
-Compare the CO2 emissions level from dataset [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv) with the capita income in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), we can find the relationship of the economic output and the CO2 emission.> The data can be used to track the changing in total greenhouse emissions for each country and be used with other data to find correlation with greenhouse emissions and desired variables, e.g. how emissions relate with the quality of life of a country.
-# Dont worry ill change it
+Compare the CO2 emissions level from dataset [Data on co2 emission per country per capita in from 1751 - 2014](http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv) with the capita income in dataset [Human Development Index](https://data.humdata.org/dataset/human-development-index-hdi/resource/4a7fd374-7e35-4c04-b7c8-25e5943aa476), we can find the relationship of the economic output and the CO2 emission.
 
 #### Question 2:
 >How greenhouse emissions of each country is related to quality of life for the residents?
