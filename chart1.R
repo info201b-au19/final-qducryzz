@@ -4,11 +4,17 @@ library(tidyr)
 library(dplyr)
 
 # This chart was intended to show the relationship between
-# CO2 emmisions per capita and GDP per capita for
-# diffrent countries in the world from 1800-2016.
-# It is pretty obvious that the U.S. always in a
+# CO2 emissions per capita and GDP per capita for
+# different countries in the world from 1800-2016.
+# Important info:
+# 1. It is pretty obvious that the U.S. always in a
 # very high position on both GDP per capita and
 # CO2 emission per capita after 1900.
+# 2. Many current developed countries like
+# the U.S. and the U.K. have much
+# higher CO2 emissions in 20th century than in
+# 21st century.
+
 
 co_emission_data <- read.csv("./data/GDP&CO2.csv")
 
@@ -60,7 +66,7 @@ server <- function(input, output) {
       y = co_emission_year$CO2_emissions_per_capita,
       color = co_emission_year$Entity, type = "scatter", mode = "markers",
       marker = list(
-        symbol = "cirlce", sizemode = "diameter", opacity = 0.8,
+        symbol = "circle", sizemode = "diameter", opacity = 0.8,
         size = co_emission_year$Total_population * 5 / 20000000
       ),
       source = "plot",
