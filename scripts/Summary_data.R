@@ -2,10 +2,10 @@ library(dplyr)
 library(tidyr)
 library("stringr")
 
-co2_emission_data <- read.csv("./data/fossil-fuel-co2-emissions-by-nation.csv")
-human_development_data <- read.csv("./data/Human_development_index_(HDI).csv")
+co2_emission_data <- read.csv("../data/fossil-fuel-co2-emissions-by-nation.csv")
+human_development_data <- read.csv("../data/Human_development_index_(HDI).csv")
 
-CombinedQoL_data <- read.csv("./data/CombinedQoLData.csv")
+CombinedQoL_data <- read.csv("../data/CombinedQoLData.csv")
 CombinedQoL_data$Country <- str_to_title(CombinedQoL_data$Country)
 
 highest_Co2_country <- co2_emission_data %>%

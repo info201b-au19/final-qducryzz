@@ -15,7 +15,7 @@ library(stringr)
 # CO2 emission change rate), the lifetime doesn't change that
 # much with a less than one year increase each year from
 # 1949 to 2014.
-CombinedQoL_data <- read.csv("./data/CombinedQoLData.csv")
+CombinedQoL_data <- read.csv("../data/CombinedQoLData.csv")
 CombinedQoL_data$Country <- str_to_title(CombinedQoL_data$Country)
 
 Summary_table <- CombinedQoL_data %>%
