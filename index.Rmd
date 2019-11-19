@@ -79,21 +79,25 @@ chart1
 
 ## Chart 2
 
-This shows the yearly change in the relationship between a countries emission rate, and the quality of life of said countries citizens (under the reasonable assumption that life expectancy is an apposite indicator of overall quality of life). As shown above the lifespan of the citizens increases as the country emits more greenhouse gases, meaning that it is in <br>
-the direct interest of a country and its citizens to industrialize and pollute the environment; as not doing so would stymie economic and social progress. <br>
-
-Data comes from two sources: <br> 
-* The Carbon Dioxide Information Analysis Center (CDIAC) <br>
-* The World Bank <br>
-The solid lines track a countries emission of greenhouse gases (in million metric tons of CO2). <br>
-The dashed life tracks the average life expectancy at birth. <br>
-
-## Effect of CO2 Emissions on Life Expectancy <br>
+## Effect of CO2 Emissions on Life Expectancy
 ``` {r echo=FALSE, warning=FALSE}
-
 chart2
-
 ```
+
+This shows the yearly change in the relationship between <br>
+a countries emission rate, and the quality of life of said <br>
+countries citizens (under the reasonable assumption that life <br> 
+expectancy is an apposite indicator of overall quality of life). <br>
+As shown above the lifespan of the citizens increases as the <br>
+country emits more greenhouse gases, meaning that it is in <br>
+the direct interest of a country and its citizens to industrialize <br>
+and pollute the environment; as not doing so would stymie economic and social progress.
+<br>
+Data comes from two sources: the Carbon Dioxide Information <br>
+Analysis Center (CDIAC), and the World Bank. <br>
+The solid lines track a countries emission of greenhouse gases (in million metric tons of CO2). <br>
+The dashed life tracks the average life expectancy at birth. 
+
 
 ## Chart 3
 
