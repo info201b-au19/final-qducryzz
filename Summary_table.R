@@ -1,6 +1,6 @@
 library(dplyr)
 library(tidyr)
-library("stringr")
+library(stringr)
 
 CombinedQoL_data <- read.csv("./data/CombinedQoLData.csv")
 CombinedQoL_data$Country <- str_to_title(CombinedQoL_data$Country)
