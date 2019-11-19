@@ -28,14 +28,12 @@ we get overall change for 1949 to 2014. Divided by the time
 interval, we get the the rate of change of Population, life_expectancy,
 and CO2 emission from 1949 to 2014. <br>
 Important info: <br>
-1. Based on the table, it is clear to see that the population
+*1. Based on the table, it is clear to see that the population
 change rate is directly proportional to the CO2 emission rate. <br>
-2. Compare to two other columns(population change rate and
+*2. Compare to two other columns(population change rate and
 CO2 emission change rate), the lifetime doesn't change that
 much with a less than one year increase each year from
 1949 to 2014. <br>
-
-
 
 ```{r echo=FALSE, warning=FALSE}
 
@@ -43,3 +41,28 @@ kable(Summary_table,
       row.names = FALSE)
 
 ```
+
+
+## Chart 1
+
+This chart was intended to show the relationship between
+CO2 emissions per capita and GDP per capita for
+different countries in the world from 1800-2016. <br>
+Important info: <br>
+*1. It is pretty obvious that the U.S. always in a
+very high position on both GDP per capita and
+CO2 emission per capita after 1900. <br>
+*2. Many current developed countries like
+the U.S. and the U.K. have much
+higher CO2 emissions in 20th century than in
+21st century. <br>
+
+```{r echo=FALSE, warning=FALSE}
+
+chart1
+
+```
+
+
+## Chart 2
+

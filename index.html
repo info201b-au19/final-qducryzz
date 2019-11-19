@@ -368,21 +368,1548 @@ summary {
 
 <div id="summary-table" class="section level2">
 <h2>Summary Table</h2>
-<p>This table talks about the growth rate of population lifetime, and CO2 emission for all the countries in the world from 1949 to 2014. With sum of the all diff, we get overall change for 1949 to 2014. Divided by the time interval, we get the the rate of change of Population, life_expectancy, and CO2 emission from 1949 to 2014. <br> Important info: <br> 1. Based on the table, it is clear to see that the population change rate is directly proportional to the CO2 emission rate. <br> 2. Compare to two other columns(population change rate and CO2 emission change rate), the lifetime doesn’t change that much with a less than one year increase each year from 1949 to 2014. <br></p>
-<pre><code>## # A tibble: 254 x 4
-##    Country                Pop_rate Life_rate Co2_emission_rate
-##    &lt;chr&gt;                     &lt;dbl&gt;     &lt;dbl&gt;             &lt;dbl&gt;
-##  1 Afghanistan         437500         0.470            41.1   
-##  2 Albania              26614.        0.239            24.0   
-##  3 Algeria             465618.        0.457           610     
-##  4 Andorra                297.        0                 0.231 
-##  5 Angola              295503.        0.327           145.    
-##  6 Anguilla                99.6       0                 0.385 
-##  7 Antarctic Fisheries      0.0730    0                 0.0308
-##  8 Antigua And Barbuda    564.        0.221             2.14  
-##  9 Argentina           401747.        0.167           851.    
-## 10 Armenia              -6744.        0.0967           -1.25  
-## # ... with 244 more rows</code></pre>
+<p>This table talks about the growth rate of population lifetime, and CO2 emission for all the countries in the world from 1949 to 2014. With sum of the all diff, we get overall change for 1949 to 2014. Divided by the time interval, we get the the rate of change of Population, life_expectancy, and CO2 emission from 1949 to 2014. <br> Important info: <br> <em>1. Based on the table, it is clear to see that the population change rate is directly proportional to the CO2 emission rate. <br> </em>2. Compare to two other columns(population change rate and CO2 emission change rate), the lifetime doesn’t change that much with a less than one year increase each year from 1949 to 2014. <br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Country</th>
+<th align="right">Pop_rate</th>
+<th align="right">Life_rate</th>
+<th align="right">Co2_emission_rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Afghanistan</td>
+<td align="right">4.375000e+05</td>
+<td align="right">0.4695385</td>
+<td align="right">41.0923077</td>
+</tr>
+<tr class="even">
+<td align="left">Albania</td>
+<td align="right">2.661376e+04</td>
+<td align="right">0.2389231</td>
+<td align="right">23.9538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Algeria</td>
+<td align="right">4.656184e+05</td>
+<td align="right">0.4574923</td>
+<td align="right">610.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Andorra</td>
+<td align="right">2.969807e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.2307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Angola</td>
+<td align="right">2.955030e+05</td>
+<td align="right">0.3269538</td>
+<td align="right">145.0615385</td>
+</tr>
+<tr class="even">
+<td align="left">Anguilla</td>
+<td align="right">9.960799e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.3846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Antarctic Fisheries</td>
+<td align="right">7.296820e-02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Antigua And Barbuda</td>
+<td align="right">5.638387e+02</td>
+<td align="right">0.2212462</td>
+<td align="right">2.1384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Argentina</td>
+<td align="right">4.017472e+05</td>
+<td align="right">0.1670462</td>
+<td align="right">851.4153846</td>
+</tr>
+<tr class="even">
+<td align="left">Armenia</td>
+<td align="right">-6.743813e+03</td>
+<td align="right">0.0966615</td>
+<td align="right">-1.2461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Aruba</td>
+<td align="right">6.255038e+02</td>
+<td align="right">0.0357077</td>
+<td align="right">2.9076923</td>
+</tr>
+<tr class="even">
+<td align="left">Australia</td>
+<td align="right">2.378569e+05</td>
+<td align="right">0.1766604</td>
+<td align="right">1515.9076923</td>
+</tr>
+<tr class="odd">
+<td align="left">Austria</td>
+<td align="right">2.400603e+04</td>
+<td align="right">0.1985328</td>
+<td align="right">245.6153846</td>
+</tr>
+<tr class="even">
+<td align="left">Azerbaijan</td>
+<td align="right">3.383375e+04</td>
+<td align="right">0.1121692</td>
+<td align="right">-78.6769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Bahamas, The</td>
+<td align="right">4.679879e+03</td>
+<td align="right">0.1247231</td>
+<td align="right">9.9076923</td>
+</tr>
+<tr class="even">
+<td align="left">Bahrain</td>
+<td align="right">1.915667e+04</td>
+<td align="right">0.3808462</td>
+<td align="right">131.4307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Bangladesh</td>
+<td align="right">8.897041e+05</td>
+<td align="right">0.3803692</td>
+<td align="right">292.3384615</td>
+</tr>
+<tr class="even">
+<td align="left">Barbados</td>
+<td align="right">1.298865e+03</td>
+<td align="right">0.2191538</td>
+<td align="right">5.3230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Belarus</td>
+<td align="right">-1.239427e+04</td>
+<td align="right">0.0453659</td>
+<td align="right">-100.3538462</td>
+</tr>
+<tr class="even">
+<td align="left">Belgium</td>
+<td align="right">3.974488e+04</td>
+<td align="right">0.1782439</td>
+<td align="right">364.7846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Belize</td>
+<td align="right">4.366686e+03</td>
+<td align="right">0.2123231</td>
+<td align="right">2.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Benin</td>
+<td align="right">1.133654e+05</td>
+<td align="right">0.3549846</td>
+<td align="right">25.9846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Bermuda</td>
+<td align="right">3.667711e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">2.2307692</td>
+</tr>
+<tr class="even">
+<td align="left">Bhutan</td>
+<td align="right">7.051282e+03</td>
+<td align="right">0.4678615</td>
+<td align="right">4.1846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Bolivia</td>
+<td align="right">1.200290e+05</td>
+<td align="right">0.4318615</td>
+<td align="right">85.6153846</td>
+</tr>
+<tr class="even">
+<td align="left">Bonaire, Saint Eustatius, And Saba</td>
+<td align="right">2.246046e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Bosnia And Herzegovina</td>
+<td align="right">-2.060121e+03</td>
+<td align="right">0.0945538</td>
+<td align="right">30.1230769</td>
+</tr>
+<tr class="even">
+<td align="left">Botswana</td>
+<td align="right">2.508050e+04</td>
+<td align="right">0.1755692</td>
+<td align="right">29.4153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Brazil</td>
+<td align="right">2.349692e+06</td>
+<td align="right">0.3169538</td>
+<td align="right">2213.9384615</td>
+</tr>
+<tr class="even">
+<td align="left">British Virgin Islands</td>
+<td align="right">3.058161e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.7384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Brunei Darussalam</td>
+<td align="right">5.682983e+03</td>
+<td align="right">0.3135846</td>
+<td align="right">38.2000000</td>
+</tr>
+<tr class="even">
+<td align="left">Bulgaria</td>
+<td align="right">-1.942188e+03</td>
+<td align="right">0.0802814</td>
+<td align="right">177.9384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Burkina Faso</td>
+<td align="right">2.526923e+05</td>
+<td align="right">0.3848923</td>
+<td align="right">11.9384615</td>
+</tr>
+<tr class="even">
+<td align="left">Burundi</td>
+<td align="right">1.538462e+05</td>
+<td align="right">0.2732000</td>
+<td align="right">1.6615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Cambodia</td>
+<td align="right">1.752564e+05</td>
+<td align="right">0.4158615</td>
+<td align="right">27.6153846</td>
+</tr>
+<tr class="even">
+<td align="left">Cameroon</td>
+<td align="right">3.088462e+05</td>
+<td align="right">0.2353538</td>
+<td align="right">28.8000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Canada</td>
+<td align="right">3.355143e+05</td>
+<td align="right">0.1641051</td>
+<td align="right">2253.7384615</td>
+</tr>
+<tr class="even">
+<td align="left">Capo Verde</td>
+<td align="right">5.236686e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">1.6307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Cayman Islands</td>
+<td align="right">7.825641e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">2.2615385</td>
+</tr>
+<tr class="even">
+<td align="left">Central African Republic</td>
+<td align="right">4.230769e+04</td>
+<td align="right">0.2135385</td>
+<td align="right">0.8461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Chad</td>
+<td align="right">2.907692e+05</td>
+<td align="right">0.2272154</td>
+<td align="right">2.8000000</td>
+</tr>
+<tr class="even">
+<td align="left">Chile</td>
+<td align="right">1.793430e+05</td>
+<td align="right">0.3428462</td>
+<td align="right">344.1846154</td>
+</tr>
+<tr class="odd">
+<td align="left">China</td>
+<td align="right">1.280715e+07</td>
+<td align="right">0.4908308</td>
+<td align="right">43178.5846154</td>
+</tr>
+<tr class="even">
+<td align="left">Christmas Island</td>
+<td align="right">1.089253e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Colombia</td>
+<td align="right">5.497511e+05</td>
+<td align="right">0.2931231</td>
+<td align="right">352.6769231</td>
+</tr>
+<tr class="even">
+<td align="left">Comoros</td>
+<td align="right">8.307692e+03</td>
+<td align="right">0.3348769</td>
+<td align="right">0.6000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Congo, Dem. Rep.</td>
+<td align="right">8.497436e+05</td>
+<td align="right">0.2727692</td>
+<td align="right">19.5846154</td>
+</tr>
+<tr class="even">
+<td align="left">Congo, Rep.</td>
+<td align="right">5.264777e+04</td>
+<td align="right">0.2594000</td>
+<td align="right">12.2000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Cook Islands</td>
+<td align="right">2.584781e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.2461538</td>
+</tr>
+<tr class="even">
+<td align="left">Costa Rica</td>
+<td align="right">5.898601e+04</td>
+<td align="right">0.2925692</td>
+<td align="right">31.3538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Cote D’ivoire</td>
+<td align="right">2.786813e+05</td>
+<td align="right">0.2986615</td>
+<td align="right">44.2461538</td>
+</tr>
+<tr class="even">
+<td align="left">Croatia</td>
+<td align="right">-4.855224e+03</td>
+<td align="right">0.0959475</td>
+<td align="right">1.7846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Cuba</td>
+<td align="right">8.555643e+04</td>
+<td align="right">0.2259538</td>
+<td align="right">145.8307692</td>
+</tr>
+<tr class="even">
+<td align="left">Curacao</td>
+<td align="right">4.794177e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">-0.4923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Cyprus</td>
+<td align="right">1.029658e+04</td>
+<td align="right">0.1624615</td>
+<td align="right">24.3076923</td>
+</tr>
+<tr class="even">
+<td align="left">Czech Republic</td>
+<td align="right">5.216935e+04</td>
+<td align="right">0.1246492</td>
+<td align="right">262.8153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Denmark</td>
+<td align="right">2.126387e+04</td>
+<td align="right">0.1311295</td>
+<td align="right">139.9692308</td>
+</tr>
+<tr class="even">
+<td align="left">Djibouti</td>
+<td align="right">1.262238e+04</td>
+<td align="right">0.2943538</td>
+<td align="right">2.9846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Dominica</td>
+<td align="right">3.469080e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.5538462</td>
+</tr>
+<tr class="even">
+<td align="left">Dominican Republic</td>
+<td align="right">1.248352e+05</td>
+<td align="right">0.3292462</td>
+<td align="right">90.3384615</td>
+</tr>
+<tr class="odd">
+<td align="left">East &amp; West Pakistan</td>
+<td align="right">6.032308e+05</td>
+<td align="right">0.0000000</td>
+<td align="right">93.6615385</td>
+</tr>
+<tr class="even">
+<td align="left">Ecuador</td>
+<td align="right">1.938872e+05</td>
+<td align="right">0.3529385</td>
+<td align="right">184.1538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Egypt, Arab Rep.</td>
+<td align="right">1.057924e+06</td>
+<td align="right">0.3550000</td>
+<td align="right">846.9846154</td>
+</tr>
+<tr class="even">
+<td align="left">El Salvador</td>
+<td align="right">5.673993e+04</td>
+<td align="right">0.3419231</td>
+<td align="right">25.2461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Equatorial Guinea</td>
+<td align="right">7.986171e+03</td>
+<td align="right">0.3148615</td>
+<td align="right">22.3846154</td>
+</tr>
+<tr class="even">
+<td align="left">Eritrea</td>
+<td align="right">2.120879e+04</td>
+<td align="right">0.1923846</td>
+<td align="right">2.8615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Estonia</td>
+<td align="right">-3.247142e+03</td>
+<td align="right">0.1257036</td>
+<td align="right">81.7538462</td>
+</tr>
+<tr class="even">
+<td align="left">Ethiopia</td>
+<td align="right">1.033590e+06</td>
+<td align="right">0.4019692</td>
+<td align="right">48.6153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Falkland Islands (Malvinas)</td>
+<td align="right">1.010387e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">-0.9230769</td>
+</tr>
+<tr class="even">
+<td align="left">Faroe Islands</td>
+<td align="right">2.562158e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">2.3384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Federated States Of Micronesia</td>
+<td align="right">1.972387e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.2153846</td>
+</tr>
+<tr class="even">
+<td align="left">Federation Of Malaya-Singapore</td>
+<td align="right">5.441784e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">24.9230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Fiji</td>
+<td align="right">9.017094e+03</td>
+<td align="right">0.0956769</td>
+<td align="right">4.4000000</td>
+</tr>
+<tr class="even">
+<td align="left">Finland</td>
+<td align="right">2.335115e+04</td>
+<td align="right">0.1901651</td>
+<td align="right">198.2923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Former Democratic Yemen</td>
+<td align="right">2.591346e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">24.4000000</td>
+</tr>
+<tr class="even">
+<td align="left">Former German Democratic Republic</td>
+<td align="right">-3.223719e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">1300.8615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Former Panama Canal Zone</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">3.4923077</td>
+</tr>
+<tr class="even">
+<td align="left">Former Yemen</td>
+<td align="right">1.097902e+05</td>
+<td align="right">0.0000000</td>
+<td align="right">15.6923077</td>
+</tr>
+<tr class="odd">
+<td align="left">France</td>
+<td align="right">3.428013e+05</td>
+<td align="right">0.1969606</td>
+<td align="right">1262.9692308</td>
+</tr>
+<tr class="even">
+<td align="left">French Equatorial Africa</td>
+<td align="right">1.615385e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">1.0615385</td>
+</tr>
+<tr class="odd">
+<td align="left">French Guiana</td>
+<td align="right">3.609023e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">3.0461538</td>
+</tr>
+<tr class="even">
+<td align="left">French Indo-China</td>
+<td align="right">-6.076923e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">10.8769231</td>
+</tr>
+<tr class="odd">
+<td align="left">French Polynesia</td>
+<td align="right">3.233554e+03</td>
+<td align="right">0.3117538</td>
+<td align="right">3.1846154</td>
+</tr>
+<tr class="even">
+<td align="left">French West Africa</td>
+<td align="right">2.230769e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">5.8000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Gabon</td>
+<td align="right">1.670330e+04</td>
+<td align="right">0.3788308</td>
+<td align="right">21.6923077</td>
+</tr>
+<tr class="even">
+<td align="left">Gambia, The</td>
+<td align="right">2.769231e+04</td>
+<td align="right">0.4402000</td>
+<td align="right">2.0923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Georgia</td>
+<td align="right">-2.066932e+04</td>
+<td align="right">0.0392462</td>
+<td align="right">-26.6307692</td>
+</tr>
+<tr class="even">
+<td align="left">Germany</td>
+<td align="right">1.916412e+05</td>
+<td align="right">0.1798225</td>
+<td align="right">2540.4615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Ghana</td>
+<td align="right">3.153846e+05</td>
+<td align="right">0.2549692</td>
+<td align="right">58.0153846</td>
+</tr>
+<tr class="even">
+<td align="left">Gibraltar</td>
+<td align="right">1.787359e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">1.7230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Greece</td>
+<td align="right">5.353048e+04</td>
+<td align="right">0.2034071</td>
+<td align="right">281.7230769</td>
+</tr>
+<tr class="even">
+<td align="left">Greenland</td>
+<td align="right">5.139767e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">1.7076923</td>
+</tr>
+<tr class="odd">
+<td align="left">Grenada</td>
+<td align="right">9.925558e+01</td>
+<td align="right">0.1580308</td>
+<td align="right">0.9846154</td>
+</tr>
+<tr class="even">
+<td align="left">Guadeloupe</td>
+<td align="right">3.910256e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">10.5076923</td>
+</tr>
+<tr class="odd">
+<td align="left">Guatemala</td>
+<td align="right">1.960397e+05</td>
+<td align="right">0.4035846</td>
+<td align="right">76.8461538</td>
+</tr>
+<tr class="even">
+<td align="left">Guinea</td>
+<td align="right">1.363077e+05</td>
+<td align="right">0.3711692</td>
+<td align="right">9.5846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Guinea-Bissau</td>
+<td align="right">2.384615e+04</td>
+<td align="right">0.2935077</td>
+<td align="right">1.1076923</td>
+</tr>
+<tr class="even">
+<td align="left">Guyana</td>
+<td align="right">5.641026e+03</td>
+<td align="right">0.1352154</td>
+<td align="right">7.3384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Haiti</td>
+<td align="right">1.237363e+05</td>
+<td align="right">0.3124154</td>
+<td align="right">11.5230769</td>
+</tr>
+<tr class="even">
+<td align="left">Honduras</td>
+<td align="right">1.031571e+05</td>
+<td align="right">0.4308308</td>
+<td align="right">38.4769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Hong Kong Sar, China</td>
+<td align="right">8.068081e+04</td>
+<td align="right">0.2618278</td>
+<td align="right">193.6923077</td>
+</tr>
+<tr class="even">
+<td align="left">Hungary</td>
+<td align="right">9.194911e+03</td>
+<td align="right">0.1193884</td>
+<td align="right">175.6307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Iceland</td>
+<td align="right">2.840252e+03</td>
+<td align="right">0.1451970</td>
+<td align="right">8.2307692</td>
+</tr>
+<tr class="even">
+<td align="left">India</td>
+<td align="right">1.438749e+07</td>
+<td align="right">0.4132923</td>
+<td align="right">9389.1076923</td>
+</tr>
+<tr class="odd">
+<td align="left">Indonesia</td>
+<td align="right">2.862908e+06</td>
+<td align="right">0.3664154</td>
+<td align="right">1947.4000000</td>
+</tr>
+<tr class="even">
+<td align="left">Iran, Islamic Rep.</td>
+<td align="right">9.171035e+05</td>
+<td align="right">0.4700769</td>
+<td align="right">2724.2769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Iraq</td>
+<td align="right">4.570710e+05</td>
+<td align="right">0.3335077</td>
+<td align="right">706.1076923</td>
+</tr>
+<tr class="even">
+<td align="left">Ireland</td>
+<td align="right">2.693476e+04</td>
+<td align="right">0.1777272</td>
+<td align="right">141.2615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Israel</td>
+<td align="right">1.025988e+05</td>
+<td align="right">0.0000000</td>
+<td align="right">270.8615385</td>
+</tr>
+<tr class="even">
+<td align="left">Italy</td>
+<td align="right">1.955348e+05</td>
+<td align="right">0.2148668</td>
+<td align="right">1344.1384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Jamaica</td>
+<td align="right">1.988620e+04</td>
+<td align="right">0.1426462</td>
+<td align="right">30.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Japan</td>
+<td align="right">6.849509e+05</td>
+<td align="right">0.2449493</td>
+<td align="right">-17.3230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Jordan</td>
+<td align="right">1.071705e+05</td>
+<td align="right">0.3279692</td>
+<td align="right">110.2461538</td>
+</tr>
+<tr class="even">
+<td align="left">Kazakhstan</td>
+<td align="right">1.439216e+04</td>
+<td align="right">0.0598199</td>
+<td align="right">-57.6000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Kenya</td>
+<td align="right">5.705983e+05</td>
+<td align="right">0.2673077</td>
+<td align="right">56.1230769</td>
+</tr>
+<tr class="even">
+<td align="left">Kiribati</td>
+<td align="right">1.128205e+03</td>
+<td align="right">0.2990462</td>
+<td align="right">0.2307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Korea, Dem. People<D5>S Rep.</td>
+<td align="right">2.225874e+05</td>
+<td align="right">0.3061692</td>
+<td align="right">169.7538462</td>
+</tr>
+<tr class="even">
+<td align="left">Korea, Rep.</td>
+<td align="right">4.641619e+05</td>
+<td align="right">0.4047141</td>
+<td align="right">2463.3538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Kuwait</td>
+<td align="right">5.541888e+04</td>
+<td align="right">0.2411692</td>
+<td align="right">389.9692308</td>
+</tr>
+<tr class="even">
+<td align="left">Kuwaiti Oil Fires</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Kyrgyz Republic</td>
+<td align="right">2.036450e+04</td>
+<td align="right">0.0353846</td>
+<td align="right">-6.7538462</td>
+</tr>
+<tr class="even">
+<td align="left">Lao Pdr</td>
+<td align="right">7.788462e+04</td>
+<td align="right">0.3529231</td>
+<td align="right">8.0923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Latvia</td>
+<td align="right">-9.612786e+03</td>
+<td align="right">0.0881276</td>
+<td align="right">29.2153846</td>
+</tr>
+<tr class="even">
+<td align="left">Lebanon</td>
+<td align="right">6.440182e+04</td>
+<td align="right">0.2379231</td>
+<td align="right">100.9692308</td>
+</tr>
+<tr class="odd">
+<td align="left">Leeward Islands</td>
+<td align="right">5.494505e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0615385</td>
+</tr>
+<tr class="even">
+<td align="left">Lesotho</td>
+<td align="right">7.617308e+03</td>
+<td align="right">-0.1530154</td>
+<td align="right">4.1692308</td>
+</tr>
+<tr class="odd">
+<td align="left">Liberia</td>
+<td align="right">4.538462e+04</td>
+<td align="right">0.4224462</td>
+<td align="right">3.7230769</td>
+</tr>
+<tr class="even">
+<td align="left">Libya</td>
+<td align="right">8.142060e+04</td>
+<td align="right">0.4518769</td>
+<td align="right">238.5230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Liechtenstein</td>
+<td align="right">5.066170e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">-0.0769231</td>
+</tr>
+<tr class="even">
+<td align="left">Lithuania</td>
+<td align="right">-1.177580e+04</td>
+<td align="right">0.0658874</td>
+<td align="right">-39.0615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Luxembourg</td>
+<td align="right">4.012591e+03</td>
+<td align="right">0.2120443</td>
+<td align="right">40.4153846</td>
+</tr>
+<tr class="even">
+<td align="left">Macao Sar, China</td>
+<td align="right">5.750315e+03</td>
+<td align="right">0.2879231</td>
+<td align="right">5.2923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Macedonia</td>
+<td align="right">2.078988e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">-13.7076923</td>
+</tr>
+<tr class="even">
+<td align="left">Madagascar</td>
+<td align="right">2.588462e+05</td>
+<td align="right">0.3872462</td>
+<td align="right">12.8923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Malawi</td>
+<td align="right">1.984615e+05</td>
+<td align="right">0.3598000</td>
+<td align="right">3.9692308</td>
+</tr>
+<tr class="even">
+<td align="left">Malaysia</td>
+<td align="right">2.953959e+05</td>
+<td align="right">0.1642000</td>
+<td align="right">957.4769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Maldives</td>
+<td align="right">3.951735e+03</td>
+<td align="right">0.4992615</td>
+<td align="right">5.5846154</td>
+</tr>
+<tr class="even">
+<td align="left">Mali</td>
+<td align="right">2.453846e+05</td>
+<td align="right">0.4436462</td>
+<td align="right">5.7230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Malta</td>
+<td align="right">1.750080e+03</td>
+<td align="right">0.1940477</td>
+<td align="right">8.8153846</td>
+</tr>
+<tr class="even">
+<td align="left">Marshall Islands</td>
+<td align="right">8.398549e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.2000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Martinique</td>
+<td align="right">2.808457e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">9.4153846</td>
+</tr>
+<tr class="even">
+<td align="left">Mauritania</td>
+<td align="right">4.599190e+04</td>
+<td align="right">0.2957231</td>
+<td align="right">11.2307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Mauritius</td>
+<td align="right">1.180051e+04</td>
+<td align="right">0.2376795</td>
+<td align="right">16.8923077</td>
+</tr>
+<tr class="even">
+<td align="left">Mexico</td>
+<td align="right">1.510364e+06</td>
+<td align="right">0.2743231</td>
+<td align="right">2012.7538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Mongolia</td>
+<td align="right">3.283629e+04</td>
+<td align="right">0.3149385</td>
+<td align="right">86.2307692</td>
+</tr>
+<tr class="even">
+<td align="left">Montenegro</td>
+<td align="right">4.807692e+01</td>
+<td align="right">0.0376462</td>
+<td align="right">-0.7230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Montserrat</td>
+<td align="right">-1.437346e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.1846154</td>
+</tr>
+<tr class="even">
+<td align="left">Morocco</td>
+<td align="right">3.999468e+05</td>
+<td align="right">0.4156769</td>
+<td align="right">251.0307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Mozambique</td>
+<td align="right">3.473077e+05</td>
+<td align="right">0.2557385</td>
+<td align="right">35.1692308</td>
+</tr>
+<tr class="even">
+<td align="left">Myanmar</td>
+<td align="right">4.881119e+05</td>
+<td align="right">0.3538000</td>
+<td align="right">77.4923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Namibia</td>
+<td align="right">1.448301e+04</td>
+<td align="right">-0.0016308</td>
+<td align="right">11.3230769</td>
+</tr>
+<tr class="even">
+<td align="left">Nauru</td>
+<td align="right">7.054349e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Nepal</td>
+<td align="right">3.150000e+05</td>
+<td align="right">0.5166923</td>
+<td align="right">33.5846154</td>
+</tr>
+<tr class="even">
+<td align="left">Netherland Antilles</td>
+<td align="right">4.493290e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">11.6615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Netherland Antilles And Aruba</td>
+<td align="right">1.077083e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">23.4615385</td>
+</tr>
+<tr class="even">
+<td align="left">Netherlands</td>
+<td align="right">1.061416e+05</td>
+<td align="right">0.1279174</td>
+<td align="right">689.8615385</td>
+</tr>
+<tr class="odd">
+<td align="left">New Caledonia</td>
+<td align="right">3.007444e+03</td>
+<td align="right">0.2863669</td>
+<td align="right">17.0769231</td>
+</tr>
+<tr class="even">
+<td align="left">New Zealand</td>
+<td align="right">3.999696e+04</td>
+<td align="right">0.1564353</td>
+<td align="right">143.9384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Nicaragua</td>
+<td align="right">7.272727e+04</td>
+<td align="right">0.4066308</td>
+<td align="right">20.3692308</td>
+</tr>
+<tr class="even">
+<td align="left">Niger</td>
+<td align="right">2.697436e+05</td>
+<td align="right">0.3848769</td>
+<td align="right">8.8153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Nigeria</td>
+<td align="right">2.219077e+06</td>
+<td align="right">0.2414769</td>
+<td align="right">403.8615385</td>
+</tr>
+<tr class="even">
+<td align="left">Niue</td>
+<td align="right">-6.656805e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Norway</td>
+<td align="right">2.941100e+04</td>
+<td align="right">0.1315422</td>
+<td align="right">199.7692308</td>
+</tr>
+<tr class="even">
+<td align="left">Occupied Palestinian Territory</td>
+<td align="right">3.312217e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">8.2923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Oman</td>
+<td align="right">5.436548e+04</td>
+<td align="right">0.4728923</td>
+<td align="right">256.5846154</td>
+</tr>
+<tr class="even">
+<td align="left">Pacific Island Small States</td>
+<td align="right">4.057971e+02</td>
+<td align="right">0.1329164</td>
+<td align="right">0.9384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Pakistan</td>
+<td align="right">1.798077e+06</td>
+<td align="right">0.1947846</td>
+<td align="right">618.2769231</td>
+</tr>
+<tr class="even">
+<td align="left">Palau</td>
+<td align="right">8.161081e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.1076923</td>
+</tr>
+<tr class="odd">
+<td align="left">Panama</td>
+<td align="right">4.599566e+04</td>
+<td align="right">0.2572154</td>
+<td align="right">36.8307692</td>
+</tr>
+<tr class="even">
+<td align="left">Papua New Guinea</td>
+<td align="right">9.217391e+04</td>
+<td align="right">0.3730154</td>
+<td align="right">26.2769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Paraguay</td>
+<td align="right">7.352564e+04</td>
+<td align="right">0.1475692</td>
+<td align="right">23.6615385</td>
+</tr>
+<tr class="even">
+<td align="left">Peninsular Malaysia</td>
+<td align="right">4.173026e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">40.8461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Peru</td>
+<td align="right">3.604843e+05</td>
+<td align="right">0.4233385</td>
+<td align="right">259.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Philippines</td>
+<td align="right">1.225719e+06</td>
+<td align="right">0.1442462</td>
+<td align="right">443.2307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Poland</td>
+<td align="right">2.106761e+05</td>
+<td align="right">0.1526454</td>
+<td align="right">1197.0923077</td>
+</tr>
+<tr class="even">
+<td align="left">Portugal</td>
+<td align="right">2.907142e+04</td>
+<td align="right">0.2746008</td>
+<td align="right">188.9230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Puerto Rico</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Qatar</td>
+<td align="right">3.303531e+04</td>
+<td align="right">0.2854154</td>
+<td align="right">451.4000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Republic Of Moldova</td>
+<td align="right">-4.459866e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">-67.2923077</td>
+</tr>
+<tr class="even">
+<td align="left">Republic Of South Sudan</td>
+<td align="right">2.307692e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">0.6923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Republic Of South Vietnam</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">73.0153846</td>
+</tr>
+<tr class="even">
+<td align="left">Republic Of Sudan</td>
+<td align="right">2.755245e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">3.0307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Reunion</td>
+<td align="right">9.573935e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">17.4000000</td>
+</tr>
+<tr class="even">
+<td align="left">Rhodesia-Nyasaland</td>
+<td align="right">4.920147e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">11.5384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Romania</td>
+<td align="right">4.796788e+04</td>
+<td align="right">0.1425741</td>
+<td align="right">293.6769231</td>
+</tr>
+<tr class="even">
+<td align="left">Russian Federation</td>
+<td align="right">-8.072399e+04</td>
+<td align="right">0.0595460</td>
+<td align="right">-1566.2461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Rwanda</td>
+<td align="right">1.023077e+05</td>
+<td align="right">0.3635846</td>
+<td align="right">3.1692308</td>
+</tr>
+<tr class="even">
+<td align="left">Rwanda-Urundi</td>
+<td align="right">1.076923e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">0.4769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Ryukyu Islands</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">37.7230769</td>
+</tr>
+<tr class="even">
+<td align="left">Sabah</td>
+<td align="right">2.520243e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">1.6461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Saint Helena</td>
+<td align="right">-3.555268e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Saint Lucia</td>
+<td align="right">1.261034e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">1.6923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Saint Martin (Dutch Portion)</td>
+<td align="right">3.914824e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.1538462</td>
+</tr>
+<tr class="even">
+<td align="left">Samoa</td>
+<td align="right">1.428571e+03</td>
+<td align="right">0.2407231</td>
+<td align="right">0.8153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Sao Tome And Principe</td>
+<td align="right">1.266968e+03</td>
+<td align="right">0.2872923</td>
+<td align="right">0.4615385</td>
+</tr>
+<tr class="even">
+<td align="left">Sarawak</td>
+<td align="right">3.234114e+03</td>
+<td align="right">0.0000000</td>
+<td align="right">-2.0307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Saudi Arabia</td>
+<td align="right">4.269205e+05</td>
+<td align="right">0.4445385</td>
+<td align="right">2521.6153846</td>
+</tr>
+<tr class="even">
+<td align="left">Senegal</td>
+<td align="right">1.824679e+05</td>
+<td align="right">0.4330308</td>
+<td align="right">35.6615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Serbia</td>
+<td align="right">-1.482299e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">-68.5538462</td>
+</tr>
+<tr class="even">
+<td align="left">Seychelles</td>
+<td align="right">7.037643e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">2.0461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Sierra Leone</td>
+<td align="right">5.846154e+04</td>
+<td align="right">0.3200923</td>
+<td align="right">4.8307692</td>
+</tr>
+<tr class="even">
+<td align="left">Singapore</td>
+<td align="right">6.276512e+04</td>
+<td align="right">0.2590045</td>
+<td align="right">229.2461538</td>
+</tr>
+<tr class="odd">
+<td align="left">Slovak Republic</td>
+<td align="right">1.915969e+03</td>
+<td align="right">0.0771857</td>
+<td align="right">-56.6615385</td>
+</tr>
+<tr class="even">
+<td align="left">Slovenia</td>
+<td align="right">1.890526e+03</td>
+<td align="right">0.1195872</td>
+<td align="right">1.4000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Solomon Islands</td>
+<td align="right">6.923077e+03</td>
+<td align="right">0.3657385</td>
+<td align="right">0.8307692</td>
+</tr>
+<tr class="even">
+<td align="left">Somalia</td>
+<td align="right">1.076923e+05</td>
+<td align="right">0.2851231</td>
+<td align="right">2.3538462</td>
+</tr>
+<tr class="odd">
+<td align="left">South Africa</td>
+<td align="right">6.218272e+05</td>
+<td align="right">0.2086462</td>
+<td align="right">2054.7076923</td>
+</tr>
+<tr class="even">
+<td align="left">Spain</td>
+<td align="right">2.777209e+05</td>
+<td align="right">0.2172308</td>
+<td align="right">981.6153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Sri Lanka</td>
+<td align="right">1.849231e+05</td>
+<td align="right">0.2581231</td>
+<td align="right">70.3384615</td>
+</tr>
+<tr class="even">
+<td align="left">St. Kitts And Nevis</td>
+<td align="right">1.373626e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">-0.0153846</td>
+</tr>
+<tr class="odd">
+<td align="left">St. Pierre &amp; Miquelon</td>
+<td align="right">3.224277e+01</td>
+<td align="right">0.0000000</td>
+<td align="right">0.2615385</td>
+</tr>
+<tr class="even">
+<td align="left">St. Vincent And The Grenadines</td>
+<td align="right">1.479290e+02</td>
+<td align="right">0.1961538</td>
+<td align="right">0.8615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Sudan</td>
+<td align="right">6.145299e+05</td>
+<td align="right">0.2304154</td>
+<td align="right">63.3846154</td>
+</tr>
+<tr class="even">
+<td align="left">Suriname</td>
+<td align="right">4.966292e+03</td>
+<td align="right">0.1761692</td>
+<td align="right">7.4615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Swaziland</td>
+<td align="right">1.479290e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">5.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Sweden</td>
+<td align="right">4.186025e+04</td>
+<td align="right">0.1422777</td>
+<td align="right">182.0307692</td>
+</tr>
+<tr class="odd">
+<td align="left">Switzerland</td>
+<td align="right">5.374564e+04</td>
+<td align="right">0.1828330</td>
+<td align="right">147.5076923</td>
+</tr>
+<tr class="even">
+<td align="left">Syrian Arab Republic</td>
+<td align="right">2.283077e+05</td>
+<td align="right">0.2746154</td>
+<td align="right">128.8000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Taiwan</td>
+<td align="right">2.461888e+05</td>
+<td align="right">0.0000000</td>
+<td align="right">1107.8769231</td>
+</tr>
+<tr class="even">
+<td align="left">Tajikistan</td>
+<td align="right">4.279789e+04</td>
+<td align="right">0.1794154</td>
+<td align="right">-8.9230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Tanganyika</td>
+<td align="right">8.692308e+04</td>
+<td align="right">0.0000000</td>
+<td align="right">5.4615385</td>
+</tr>
+<tr class="even">
+<td align="left">Tanzania</td>
+<td align="right">6.230769e+05</td>
+<td align="right">0.2385231</td>
+<td align="right">41.0923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Thailand</td>
+<td align="right">6.430648e+05</td>
+<td align="right">0.3237846</td>
+<td align="right">1326.5230769</td>
+</tr>
+<tr class="even">
+<td align="left">Timor-Leste</td>
+<td align="right">4.363636e+03</td>
+<td align="right">0.1122462</td>
+<td align="right">1.2923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Togo</td>
+<td align="right">9.153846e+04</td>
+<td align="right">0.2966615</td>
+<td align="right">10.8923077</td>
+</tr>
+<tr class="even">
+<td align="left">Tonga</td>
+<td align="right">8.684864e+02</td>
+<td align="right">0.1621846</td>
+<td align="right">0.4769231</td>
+</tr>
+<tr class="odd">
+<td align="left">Trinidad And Tobago</td>
+<td align="right">1.105118e+04</td>
+<td align="right">0.1622462</td>
+<td align="right">194.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Tunisia</td>
+<td align="right">1.134345e+05</td>
+<td align="right">0.5186615</td>
+<td align="right">120.9230769</td>
+</tr>
+<tr class="odd">
+<td align="left">Turkey</td>
+<td align="right">8.577343e+05</td>
+<td align="right">0.4738923</td>
+<td align="right">1450.9076923</td>
+</tr>
+<tr class="even">
+<td align="left">Turkmenistan</td>
+<td align="right">2.182346e+04</td>
+<td align="right">0.0737077</td>
+<td align="right">148.4923077</td>
+</tr>
+<tr class="odd">
+<td align="left">Turks And Caicos Islands</td>
+<td align="right">3.296500e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">0.7384615</td>
+</tr>
+<tr class="even">
+<td align="left">Tuvalu</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Uganda</td>
+<td align="right">5.038462e+05</td>
+<td align="right">0.2509231</td>
+<td align="right">21.4923077</td>
+</tr>
+<tr class="even">
+<td align="left">Ukraine</td>
+<td align="right">-1.038739e+05</td>
+<td align="right">0.0371632</td>
+<td align="right">-1693.4000000</td>
+</tr>
+<tr class="odd">
+<td align="left">United Arab Emirates</td>
+<td align="right">1.383329e+05</td>
+<td align="right">0.3932000</td>
+<td align="right">886.7384615</td>
+</tr>
+<tr class="even">
+<td align="left">United Kingdom</td>
+<td align="right">2.083635e+05</td>
+<td align="right">0.1565854</td>
+<td align="right">1722.0615385</td>
+</tr>
+<tr class="odd">
+<td align="left">United Korea</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">80.5692308</td>
+</tr>
+<tr class="even">
+<td align="left">United States</td>
+<td align="right">2.511226e+06</td>
+<td align="right">0.1395497</td>
+<td align="right">22042.8000000</td>
+</tr>
+<tr class="odd">
+<td align="left">United States Of America</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Uruguay</td>
+<td align="right">1.806268e+04</td>
+<td align="right">0.1455538</td>
+<td align="right">27.9846154</td>
+</tr>
+<tr class="odd">
+<td align="left">Ussr</td>
+<td align="right">1.707938e+06</td>
+<td align="right">0.0000000</td>
+<td align="right">15352.3076923</td>
+</tr>
+<tr class="even">
+<td align="left">Uzbekistan</td>
+<td align="right">1.247315e+05</td>
+<td align="right">0.0662000</td>
+<td align="right">-27.6615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Vanuatu</td>
+<td align="right">2.980769e+03</td>
+<td align="right">0.3028923</td>
+<td align="right">0.4769231</td>
+</tr>
+<tr class="even">
+<td align="left">Venezuela, Rb</td>
+<td align="right">3.925542e+05</td>
+<td align="right">0.1989385</td>
+<td align="right">777.0615385</td>
+</tr>
+<tr class="odd">
+<td align="left">Viet Nam</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">Vietnam</td>
+<td align="right">7.331776e+05</td>
+<td align="right">0.2590308</td>
+<td align="right">690.3538462</td>
+</tr>
+<tr class="odd">
+<td align="left">Wallis And Futuna Islands</td>
+<td align="right">-2.411382e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0307692</td>
+</tr>
+<tr class="even">
+<td align="left">Yemen</td>
+<td align="right">0.000000e+00</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">Yemen, Rep.</td>
+<td align="right">2.036410e+05</td>
+<td align="right">0.1282462</td>
+<td align="right">56.6000000</td>
+</tr>
+<tr class="even">
+<td align="left">Yugoslavia (Former Socialist Federal Republic)</td>
+<td align="right">1.183932e+05</td>
+<td align="right">0.0000000</td>
+<td align="right">395.4153846</td>
+</tr>
+<tr class="odd">
+<td align="left">Yugoslavia (Montenegro &amp; Serbia)</td>
+<td align="right">1.075619e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">29.1692308</td>
+</tr>
+<tr class="even">
+<td align="left">Zambia</td>
+<td align="right">1.832544e+05</td>
+<td align="right">0.1963538</td>
+<td align="right">5.1384615</td>
+</tr>
+<tr class="odd">
+<td align="left">Zanzibar</td>
+<td align="right">-7.692308e+02</td>
+<td align="right">0.0000000</td>
+<td align="right">-0.0153846</td>
+</tr>
+<tr class="even">
+<td align="left">Zimbabwe</td>
+<td align="right">1.645093e+05</td>
+<td align="right">0.0547846</td>
+<td align="right">49.9538462</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="chart-1" class="section level2">
+<h2>Chart 1</h2>
+<p>This chart was intended to show the relationship between CO2 emissions per capita and GDP per capita for different countries in the world from 1800-2016. <br> Important info: <br> <em>1. It is pretty obvious that the U.S. always in a very high position on both GDP per capita and CO2 emission per capita after 1900. <br> </em>2. Many current developed countries like the U.S. and the U.K. have much higher CO2 emissions in 20th century than in 21st century. <br></p>
+<div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>
 </div>
 
 
