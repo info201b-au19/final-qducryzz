@@ -55,7 +55,14 @@ data_collection[is.na(data_collection)] <- 0
 data_collection$HDI <- as.numeric(data_collection$HDI)
 
 data_collection[data_collection == 0] <- NA
+data_collection <- data_collection %>%
+  mutate(Pop = Total*1000/Per.Capita)
+
+
 
 data_collection_summary <- data_collection %>%
   group_by(Country) %>%
+  summarise(
+    mean_renew
+  )
   
