@@ -36,7 +36,7 @@ meanLife <- TopNations1950 %>%
   summarise(mean = mean(LifeTime))
 TopNations1950 <- left_join(TopNations1950, meanLife, by = "Year")
 
-p <- ggplot(TopNations1950, mapping = aes(x = Year)) +
+chart2 <- ggplot(TopNations1950, mapping = aes(x = Year)) +
   geom_line(aes(y = Total, color = Country, group = Country)) +
   scale_y_continuous(sec.axis = sec_axis(~ . / 20000, name = "Life Expectancy (Years0")) +
   geom_line(aes(y = mean * 20000)) +
