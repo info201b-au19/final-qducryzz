@@ -97,4 +97,4 @@ server <- function(input, output) {
     )
   })
 }
-shinyApp(ui, server)
+chart1 <- shinyApp(ui, server)
