@@ -20,7 +20,7 @@ source("./scripts/chart3.R")
 We choose CO2 emission as our field of study due to our shared interest in climate change and natural environments. At the same time, we think the natural environment plays an important role in our daily life, so we want to get to know more about the correlation between humans and the environment.
 
 ## Source of data:
-[Data on co2 emission per country from the CDIAC](https://datahub.io/core/co2-fossil-by-nation#readme):** <br>
+[Data on co2 emission per country from the CDIAC](https://datahub.io/core/co2-fossil-by-nation#readme): <br>
 
 ## Summary Information
 
@@ -78,7 +78,6 @@ chart1
 
 ## Chart 2
 
-<<<<<<< HEAD
 This shows the yearly change in the relationship between a countries emission rate, and the quality of life of said countries citizens (under the reasonable assumption that life expectancy is an apposite indicator of overall quality of life). As shown above the lifespan of the citizens increases as the country emits more greenhouse gases, meaning that it is in <br>
 the direct interest of a country and its citizens to industrialize and pollute the environment; as not doing so would stymie economic and social progress. <br>
 
@@ -90,11 +89,10 @@ The dashed life tracks the average life expectancy at birth. <br>
 
 ## Effect of CO2 Emissions on Life Expectancy
 
-=======
-## Effect of CO2 Emissions on Life Expectancy
->>>>>>> ebfeabba2bc20709d284656f0f508f290ad361a6
 ``` {r echo=FALSE, warning=FALSE}
+
 chart2
+
 ```
 
 This shows the yearly change in the relationship between <br>
