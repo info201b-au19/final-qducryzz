@@ -16,7 +16,7 @@ library(dplyr)
 # 21st century.
 
 
-co_emission_data <- read.csv("./data/GDP&CO2.csv")
+co_emission_data <- read.csv("../data/GDP&CO2.csv")
 
 co_emission_data[is.na(co_emission_data)] <- 0
 

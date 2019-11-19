@@ -4,262 +4,261 @@
 "3","Angola",65.6290684442308
 "4","Albania",40.4049329823077
 "5","Andorra",16.4044646746154
-"6","Arab World",6.00501322180769
-"7","United Arab Emirates",0.0968052093846154
+"6","Arab0World",6.00501322180769
+"7","United0Arab0Emirates",0.0968052093846154
 "8","Argentina",10.1784600979615
 "9","Armenia",8.50023188119231
-"10","American Samoa",0.1150741435
-"11","Antigua and Barbuda",0
+"10","American0Samoa",0.1150741435
+"11","Antigua0and0Barbuda",0
 "12","Australia",8.07143792223077
 "13","Austria",27.4611628603846
 "14","Azerbaijan",2.39725867223077
 "15","Burundi",95.5912676423077
 "16","Belgium",3.249808091
 "17","Benin",69.0959669734615
-"18","Burkina Faso",85.2514580103846
+"18","Burkina0Faso",85.2514580103846
 "19","Bangladesh",53.9712152180769
 "20","Bulgaria",8.61499498019231
 "21","Bahrain",0
-"22","Bahamas, The",0.901598429423077
-"23","Bosnia and Herzegovina",21.5749358163846
+"22","Bahamas,0The",0.901598429423077
+"23","Bosnia0and0Herzegovina",21.5749358163846
 "24","Belarus",4.80146903703846
 "25","Belize",34.1470915396154
 "26","Bermuda",0.783554684230769
 "27","Bolivia",26.9306639142308
 "28","Brazil",45.6010743846154
 "29","Barbados",11.1656731624231
-"30","Brunei Darussalam",0.0531826899230769
+"30","Brunei0Darussalam",0.0531826899230769
 "31","Bhutan",91.9196492173077
 "32","Botswana",36.1738118123077
-"33","Central African Republic",85.5749796526923
+"33","Central0African0Republic",85.5749796526923
 "34","Canada",21.9045077369231
-"35","Central Europe and the Baltics",10.6762767165385
+"35","Central0Europe0and0the0Baltics",10.6762767165385
 "36","Switzerland",19.5598485123077
-"37","Channel Islands",NA
+"37","Channel0Islands",0
 "38","Chile",31.5838122
 "39","China",22.8963817907692
-"40","Cote d'Ivoire",72.4942382338461
-"41","Cameroon",82.5071881484615
-"42","Congo, Dem. Rep.",96.4679789592308
-"43","Congo, Rep.",66.3533751926923
+"40","Cote0d'Ivoire",72.4942382338461
+"41","Cameroon",76.2613694559259
+"42","Congo,0Dem.0Rep.",96.4679789592308
+"43","Congo,0Rep.",66.3533751926923
 "44","Colombia",29.5235986730769
 "45","Comoros",49.4813021357692
-"46","Cabo Verde",30.8514755811538
-"47","Costa Rica",37.7173606865385
-"48","Caribbean small states",10.2356327253846
+"46","Cabo0Verde",30.8514755811538
+"47","Costa0Rica",37.7173606865385
+"48","Caribbean0small0states",10.2356327253846
 "49","Cuba",30.6287358434615
 "50","Curacao",0.187588019461538
-"51","Cayman Islands",0
+"51","Cayman0Islands",0
 "52","Cyprus",4.16380479719231
-"53","Czech Republic",8.05259529330769
+"53","Czech0Republic",8.05259529330769
 "54","Germany",6.25584425803846
 "55","Djibouti",31.3463932107692
 "56","Dominica",11.7086229842692
 "57","Denmark",14.9444276458462
-"58","Dominican Republic",19.99162554
+"58","Dominican0Republic",19.99162554
 "59","Algeria",0.353729750307692
-"60","East Asia & Pacific (excluding high income)",25.8930553865385
-"61","Early-demographic dividend",30.8521596896154
-"62","East Asia & Pacific",19.2394589207692
-"63","Europe & Central Asia (excluding high income)",5.47056011215385
-"64","Europe & Central Asia",8.5673233765
+"60","East0Asia0&0Pacific0(excluding0high0income)",25.8930553865385
+"61","Early-demographic0dividend",30.8521596896154
+"62","East0Asia0&0Pacific",19.2394589207692
+"63","Europe0&0Central0Asia0(excluding0high0income)",5.47056011215385
+"64","Europe0&0Central0Asia",8.5673233765
 "65","Ecuador",16.9665149403846
-"66","Egypt, Arab Rep.",7.32571695715385
-"67","Euro area",9.52430835334615
-"68","Eritrea",NA
+"66","Egypt,0Arab0Rep.",7.32571695715385
+"67","Euro0area",9.52430835334615
+"68","Eritrea",72.5919287273077
 "69","Spain",10.5564486197692
 "70","Estonia",17.9762310638846
 "71","Ethiopia",95.2069882038462
-"72","European Union",9.65572081065385
-"73","Fragile and conflict affected situations",52.6199349676923
+"72","European0Union",9.65572081065385
+"73","Fragile0and0conflict0affected0situations",52.6199349676923
 "74","Finland",31.1850862692308
 "75","Fiji",46.5916405153846
 "76","France",10.5280075615385
-"77","Faroe Islands",3.79675011403846
-"78","Micronesia, Fed. Sts.",NA
+"77","Faroe0Islands",3.79675011403846
+"78","Micronesia,0Fed.0Sts.",1.17911633061538
 "79","Gabon",78.6422526523077
-"80","United Kingdom",2.29193928776923
+"80","United0Kingdom",2.29193928776923
 "81","Georgia",37.4903229930769
 "82","Ghana",64.4707875957692
 "83","Gibraltar",0
 "84","Guinea",82.9242256103846
-"85","Gambia, The",58.1371872969231
+"85","Gambia,0The",58.1371872969231
 "86","Guinea-Bissau",88.5462223326923
-"87","Equatorial Guinea",37.1576296031538
+"87","Equatorial0Guinea",37.1576296031538
 "88","Greece",9.31812265219231
 "89","Grenada",9.69531538334615
 "90","Greenland",9.79629282657692
 "91","Guatemala",63.9644320111538
 "92","Guam",0
 "93","Guyana",37.161764935
-"94","High income",7.992432251
-"95","Hong Kong SAR, China",0.793758855653846
+"94","High0income",7.992432251
+"95","Hong0Kong0SAR,0China",0.793758855653846
 "96","Honduras",56.2601910534615
-"97","Heavily indebted poor countries (HIPC)",83.702399095
+"97","Heavily0indebted0poor0countries0(HIPC)",83.702399095
 "98","Croatia",28.3415990026923
 "99","Haiti",79.1279303838461
 "100","Hungary",7.64694077080769
-"101","IBRD only",21.4857779269231
-"102","IDA & IBRD total",26.7906334034615
-"103","IDA total",67.0238116661538
-"104","IDA blend",59.5170872607692
+"101","IBRD0only",21.4857779269231
+"102","IDA0&0IBRD0total",26.7906334034615
+"103","IDA0total",67.0238116661538
+"104","IDA0blend",59.5170872607692
 "105","Indonesia",44.8796009934615
-"106","IDA only",75.1579628253846
-"107","Isle of Man",NA
+"106","IDA0only",75.1579628253846
+"107","Isle0of0Man",2.30247644134615
 "108","India",48.4353206784615
-"109","Not classified",NA
-"110","Ireland",3.62617763484615
-"111","Iran, Islamic Rep.",0.9720571195
-"112","Iraq",0.909156541076923
-"113","Iceland",63.8707434538462
-"114","Israel",6.107256188
-"115","Italy",8.10525588184615
-"116","Jamaica",11.6228581108077
-"117","Jordan",2.47506902711538
-"118","Japan",4.25880237826923
-"119","Kazakhstan",1.68272439246154
-"120","Kenya",79.0790796619231
-"121","Kyrgyz Republic",25.3378791033846
-"122","Cambodia",NA
-"123","Kiribati",3.90858779565385
-"124","St. Kitts and Nevis",19.6082613031538
-"125","Korea, Rep.",1.09757961973077
-"126","Kuwait",0.0374218446923077
-"127","Latin America & Caribbean (excluding high income)",29.1709637469231
-"128","Lao PDR",77.7450783473077
-"129","Lebanon",5.87267006484615
-"130","Liberia",88.4805681130769
-"131","Libya",2.11484019092308
-"132","St. Lucia",2.8302859485
-"133","Latin America & Caribbean",28.9860073442308
-"134","Least developed countries: UN classification",81.3803543542308
-"135","Low income",71.8603453780769
-"136","Liechtenstein",NA
-"137","Sri Lanka",64.4417023146154
-"138","Lower middle income",44.8171905084615
-"139","Low & middle income",27.0573535584615
-"140","Lesotho",53.3619909453846
-"141","Late-demographic dividend",18.3374541646154
-"142","Lithuania",16.1931108010385
-"143","Luxembourg",3.731415545
-"144","Latvia",33.0371795596154
-"145","Macao SAR, China",7.81622062111538
-"146","St. Martin (French part)",NA
-"147","Morocco",16.1774761357692
-"148","Monaco",NA
-"149","Moldova",5.76458931596154
-"150","Madagascar",80.3608434334615
-"151","Maldives",2.19723347203846
-"152","Middle East & North Africa",2.24050288446154
-"153","Mexico",11.1120524077692
-"154","Marshall Islands",NA
-"155","Middle income",25.1016536061538
-"156","North Macedonia",16.6858632586538
-"157","Mali",80.3671536834615
-"158","Malta",0.744344692230769
-"159","Myanmar",82.1564634746154
-"160","Middle East & North Africa (excluding high income)",3.18823676692308
-"161","Montenegro",NA
-"162","Mongolia",3.97877379911538
-"163","Northern Mariana Islands",NA
-"164","Mozambique",92.3356589203846
-"165","Mauritania",40.1626103496154
-"166","Mauritius",23.7041303423077
-"167","Malawi",81.8541376665385
-"168","Malaysia",6.56982758276923
-"169","North America",7.72531728796154
-"170","Namibia",NA
-"171","New Caledonia",6.08694662215385
-"172","Niger",NA
-"173","Nigeria",86.2981939442308
-"174","Nicaragua",57.7035130461538
-"175","Netherlands",2.73560726269231
-"176","Norway",58.5826433569231
-"177","Nepal",89.7663710996154
-"178","Nauru",0.0314318332307692
-"179","New Zealand",29.5064797796154
-"180","OECD members",8.59128599584615
-"181","Oman",0
-"182","Other small states",29.5453577846154
-"183","Pakistan",49.9807675657692
-"184","Panama",30.9731155303846
-"185","Peru",32.2000219784615
-"186","Philippines",35.2135342130769
-"187","Palau",NA
-"188","Papua New Guinea",62.4721958080769
-"189","Poland",7.34215226846154
-"190","Pre-demographic dividend",77.5034438088462
-"191","Puerto Rico",0.908432770307692
-"192","Korea, Dem. Peopleâ€™s Rep.",11.614857447
-"193","Portugal",23.8734294046154
-"194","Paraguay",68.2765961719231
-"195","West Bank and Gaza",18.1523691103846
-"196","Pacific island small states",40.9387106688462
-"197","Post-demographic dividend",8.09401963180769
-"198","French Polynesia",8.57683363323077
-"199","Qatar",0
-"200","Romania",15.7960063139615
-"201","Russian Federation",3.60020526088462
-"202","Rwanda",87.4133319976923
-"203","South Asia",49.9266265776923
-"204","Saudi Arabia",0.0127338585
-"205","Sudan",72.8563466169231
-"206","Senegal",47.8957302730769
-"207","Singapore",0.496343512615385
-"208","Solomon Islands",63.3949761457692
-"209","Sierra Leone",85.9909983334615
-"210","El Salvador",45.6960456892308
-"211","San Marino",NA
-"212","Somalia",92.2137383307692
-"213","Serbia",19.1282265907692
-"214","Sub-Saharan Africa (excluding high income)",71.7500804030769
-"215","South Sudan",NA
-"216","Sub-Saharan Africa",71.7249589907692
-"217","Small states",26.0209900023077
-"218","Sao Tome and Principe",49.7905503580769
-"219","Suriname",NA
-"220","Slovak Republic",6.45485198265385
-"221","Slovenia",15.0928709134615
-"222","Sweden",39.6750685230769
-"223","Eswatini",63.8538332307692
-"224","Sint Maarten (Dutch part)",NA
-"225","Seychelles",1.39389077503846
-"226","Syrian Arab Republic",1.88424041607692
-"227","Turks and Caicos Islands",0.7317153135
-"228","Chad",94.2803637492308
-"229","East Asia & Pacific (IDA & IBRD countries)",26.1953865303846
-"230","Europe & Central Asia (IDA & IBRD countries)",5.80934531476923
-"231","Togo",76.6821790473077
-"232","Thailand",23.2926460842308
-"233","Tajikistan",55.0411319915385
-"234","Turkmenistan",0.0739851993461538
-"235","Latin America & the Caribbean (IDA & IBRD countries)",29.1092274553846
-"236","Timor-Leste",NA
-"237","Middle East & North Africa (IDA & IBRD countries)",3.13562398676923
-"238","Tonga",1.668514616
-"239","South Asia (IDA & IBRD)",49.9266265776923
-"240","Sub-Saharan Africa (IDA & IBRD countries)",71.7249589907692
-"241","Trinidad and Tobago",0.7219847745
-"242","Tunisia",14.0807098676923
-"243","Turkey",17.684108315
-"244","Tuvalu",0
-"245","Tanzania",91.7148567642308
-"246","Uganda",93.5596575692308
-"247","Ukraine",1.77810054688462
-"248","Upper middle income",17.1752892461538
-"249","Uruguay",43.3089324311538
-"250","United States",5.95752212580769
-"251","Uzbekistan",1.79773250242308
-"252","St. Vincent and the Grenadines",7.59016099569231
-"253","Venezuela, RB",13.5059999242308
-"254","British Virgin Islands",1.077577146
-"255","Virgin Islands (U.S.)",0.369066661230769
-"256","Vietnam",52.4318194769231
-"257","Vanuatu",39.2049583276923
-"258","World",17.5122032265385
-"259","Samoa",44.3033875007692
-"260","Kosovo",NA
-"261","Yemen, Rep.",1.27386473230769
-"262","South Africa",17.2496175953846
-"263","Zambia",88.5307834057692
-"264","Zimbabwe",73.7656020465385
+"109","Ireland",3.62617763484615
+"110","Iran,0Islamic0Rep.",0.9720571195
+"111","Iraq",0.909156541076923
+"112","Iceland",63.8707434538462
+"113","Israel",6.107256188
+"114","Italy",8.10525588184615
+"115","Jamaica",11.6228581108077
+"116","Jordan",2.47506902711538
+"117","Japan",4.25880237826923
+"118","Kazakhstan",1.68272439246154
+"119","Kenya",79.0790796619231
+"120","Kyrgyz0Republic",25.3378791033846
+"121","Cambodia",60.794167985
+"122","Kiribati",3.90858779565385
+"123","St.0Kitts0and0Nevis",19.6082613031538
+"124","Korea,0Rep.",1.09757961973077
+"125","Kuwait",0.0374218446923077
+"126","Latin0America0&0Caribbean0(excluding0high0income)",29.1709637469231
+"127","Lao0PDR",77.7450783473077
+"128","Lebanon",5.87267006484615
+"129","Liberia",88.4805681130769
+"130","Libya",2.11484019092308
+"131","St.0Lucia",2.8302859485
+"132","Latin0America0&0Caribbean",28.9860073442308
+"133","Least0developed0countries:0UN0classification",81.3803543542308
+"134","Low0income",71.8603453780769
+"135","Liechtenstein",20.6119412680769
+"136","Sri0Lanka",64.4417023146154
+"137","Lower0middle0income",44.8171905084615
+"138","Low0&0middle0income",27.0573535584615
+"139","Lesotho",53.3619909453846
+"140","Late-demographic0dividend",18.3374541646154
+"141","Lithuania",16.1931108010385
+"142","Luxembourg",3.731415545
+"143","Latvia",33.0371795596154
+"144","Macao0SAR,0China",7.81622062111538
+"145","St.0Martin0(French0part)",0
+"146","Morocco",16.1774761357692
+"147","Monaco",0
+"148","Moldova",5.76458931596154
+"149","Madagascar",80.3608434334615
+"150","Maldives",2.19723347203846
+"151","Middle0East0&0North0Africa",2.24050288446154
+"152","Mexico",11.1120524077692
+"153","Marshall0Islands",15.4477201226923
+"154","Middle0income",25.1016536061538
+"155","North0Macedonia",16.6858632586538
+"156","Mali",80.3671536834615
+"157","Malta",0.744344692230769
+"158","Myanmar",82.1564634746154
+"159","Middle0East0&0North0Africa0(excluding0high0income)",3.18823676692308
+"160","Montenegro",19.1865022403846
+"161","Mongolia",3.97877379911538
+"162","Northern0Mariana0Islands",0
+"163","Mozambique",92.3356589203846
+"164","Mauritania",40.1626103496154
+"165","Mauritius",23.7041303423077
+"166","Malawi",81.8541376665385
+"167","Malaysia",6.56982758276923
+"168","North0America",7.72531728796154
+"169","Namibia",30.9625153107692
+"170","New0Caledonia",6.08694662215385
+"171","Niger",51.3269560780769
+"172","Nigeria",86.2981939442308
+"173","Nicaragua",57.7035130461538
+"174","Netherlands",2.73560726269231
+"175","Norway",58.5826433569231
+"176","Nepal",89.7663710996154
+"177","Nauru",0.0314318332307692
+"178","New0Zealand",29.5064797796154
+"179","OECD0members",8.59128599584615
+"180","Oman",0
+"181","Other0small0states",29.5453577846154
+"182","Pakistan",49.9807675657692
+"183","Panama",30.9731155303846
+"184","Peru",32.2000219784615
+"185","Philippines",35.2135342130769
+"186","Palau",0
+"187","Papua0New0Guinea",62.4721958080769
+"188","Poland",7.34215226846154
+"189","Pre-demographic0dividend",77.5034438088462
+"190","Puerto0Rico",0.908432770307692
+"191","Korea,0Dem.0PeopleÕs0Rep.",11.614857447
+"192","Portugal",23.8734294046154
+"193","Paraguay",68.2765961719231
+"194","West0Bank0and0Gaza",18.1523691103846
+"195","Pacific0island0small0states",40.9387106688462
+"196","Post-demographic0dividend",8.09401963180769
+"197","French0Polynesia",8.57683363323077
+"198","Qatar",0
+"199","Romania",15.7960063139615
+"200","Russian0Federation",3.60020526088462
+"201","Rwanda",87.4133319976923
+"202","South0Asia",49.9266265776923
+"203","Saudi0Arabia",0.0127338585
+"204","Sudan",72.8563466169231
+"205","Senegal",47.8957302730769
+"206","Singapore",0.496343512615385
+"207","Solomon0Islands",63.3949761457692
+"208","Sierra0Leone",85.9909983334615
+"209","El0Salvador",45.6960456892308
+"210","San0Marino",0
+"211","Somalia",92.2137383307692
+"212","Serbia",19.1282265907692
+"213","Sub-Saharan0Africa0(excluding0high0income)",71.7500804030769
+"214","South0Sudan",4.95394207153846
+"215","Sub-Saharan0Africa",71.7249589907692
+"216","Small0states",26.0209900023077
+"217","Sao0Tome0and0Principe",49.7905503580769
+"218","Suriname",16.1368766673077
+"219","Slovak0Republic",6.45485198265385
+"220","Slovenia",15.0928709134615
+"221","Sweden",39.6750685230769
+"222","Eswatini",63.8538332307692
+"223","Sint0Maarten0(Dutch0part)",0.00742935661538462
+"224","Seychelles",1.39389077503846
+"225","Syrian0Arab0Republic",1.88424041607692
+"226","Turks0and0Caicos0Islands",0.7317153135
+"227","Chad",94.2803637492308
+"228","East0Asia0&0Pacific0(IDA0&0IBRD0countries)",26.1953865303846
+"229","Europe0&0Central0Asia0(IDA0&0IBRD0countries)",5.80934531476923
+"230","Togo",76.6821790473077
+"231","Thailand",23.2926460842308
+"232","Tajikistan",55.0411319915385
+"233","Turkmenistan",0.0739851993461538
+"234","Latin0America0&0the0Caribbean0(IDA0&0IBRD0countries)",29.1092274553846
+"235","Timor-Leste",19.0383104942308
+"236","Middle0East0&0North0Africa0(IDA0&0IBRD0countries)",3.13562398676923
+"237","Tonga",1.668514616
+"238","South0Asia0(IDA0&0IBRD)",49.9266265776923
+"239","Sub-Saharan0Africa0(IDA0&0IBRD0countries)",71.7249589907692
+"240","Trinidad0and0Tobago",0.7219847745
+"241","Tunisia",14.0807098676923
+"242","Turkey",17.684108315
+"243","Tuvalu",0
+"244","Tanzania",91.7148567642308
+"245","Uganda",93.5596575692308
+"246","Ukraine",1.77810054688462
+"247","Upper0middle0income",17.1752892461538
+"248","Uruguay",43.3089324311538
+"249","United0States",5.95752212580769
+"250","Uzbekistan",1.79773250242308
+"251","St.0Vincent0and0the0Grenadines",7.59016099569231
+"252","Venezuela,0RB",13.5059999242308
+"253","British0Virgin0Islands",1.077577146
+"254","Virgin0Islands0(U.S.)",0.369066661230769
+"255","Vietnam",52.4318194769231
+"256","Vanuatu",39.2049583276923
+"257","World",17.5122032265385
+"258","Samoa",44.3033875007692
+"259","Kosovo",13.7060690984615
+"260","Yemen,0Rep.",1.27386473230769
+"261","South0Africa",17.2496175953846
+"262","Zambia",88.5307834057692
+"263","Zimbabwe",73.7656020465385
