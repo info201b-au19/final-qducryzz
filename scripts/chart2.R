@@ -3,7 +3,7 @@ library(ggplot2)
 library(plotly)
 
 ## Total and all CO2 outputs are measured in million metric tons
-my_data <- read.csv(file = "data/CombinedQoLData.csv", stringsAsFactors = FALSE)
+my_data <- read.csv(file = "./data/CombinedQoLData.csv", stringsAsFactors = FALSE)
 
 x <- my_data %>%
   filter(Year == 2014) %>%
