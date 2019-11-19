@@ -96,7 +96,7 @@ and pollute the environment; as not doing so would stymie economic and social pr
 Data comes from two sources: the Carbon Dioxide Information <br>
 Analysis Center (CDIAC), and the World Bank. <br>
 The solid lines track a countries emission of greenhouse gases (in million metric tons of CO2). <br>
-The dashed life tracks the average life expectancy at birth. 
+The dotted life tracks the average life expectancy at birth. 
 
 
 ## Chart 3
