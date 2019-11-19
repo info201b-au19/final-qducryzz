@@ -48,7 +48,7 @@ Summary_table
 
 ## Effect of CO2 Emissions on Life Expectancy
 ``` {r echo=FALSE, warning=FALSE}
-p
+chart2
 
 ```
 
