@@ -52,7 +52,7 @@ server <- function(input, output) {
       color = co_emission_year$Entity, type = "scatter", mode = "markers",
       marker = list(
         symbol = "cirlce", sizemode = "diameter", opacity = 0.8,
-        size = co_emission_year$Total_population * 3 / 20000000
+        size = co_emission_year$Total_population * 5 / 30000000
       ),
       source = "plot",
       key = co_emission_year$Entity
