@@ -11,6 +11,23 @@ library(ggplot2)
 library(dplyr)
 library(tidyverse)
 
+# data_HDI <- read.csv("data/Human_development_index_(HDI).csv")
+# data_re <- read.csv("data/Renewable_Energy_Production.csv")
+# 
+# data_HDI <- data.frame(data_HDI)
+# 
+# meanHDI <- data.frame(Country=data_HDI[,1], Mean_HDI=rowMeans(data_HDI[,-1]))
+# write.csv(meanHDI, "data/meanHDI.csv", row.names = TRUE)
+# 
+# data_re$Indicator.Code <- NULL
+# data_re$Indicator.Name <- NULL
+# data_re$Country.Code <- NULL
+# meanRE <- data.frame(Country=data_re[,1], Mean_re=rowMeans(data_re[,-1]))
+# write.csv(meanRE, "data/meanRE.csv", row.names = TRUE)
+# 
+# both <- merge(meanHDI, meanRE)
+# write.csv(meanRE, "data/both.csv", row.names = TRUE)
+
 createAveragesPlot <- function(both_RE_HDI$Mean_HDI, both_RE_HDI$Mean_re) {
   gg <- ggplot(both_RE_HDI, aes(both_RE_HDI$Mean_HDI, both_RE_HDI$Mean_re, color = both_RE_HDI$Mean_HDI)) +
           geom_point(shape = 16,  size = 3, alpha = .5) +
