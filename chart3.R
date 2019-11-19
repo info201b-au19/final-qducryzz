@@ -11,7 +11,7 @@ library(ggplot2)
 library(dplyr)
 library(tidyverse)
 
-# data_HDI <- read.csv("data/Human_development_index_(HDI).csv")
+# data_HDI <- read.csv("data/Human_development_index_(HDI)(TRANSPOSED).csv")
 # data_re <- read.csv("data/Renewable_Energy_Production.csv")
 # 
 # data_HDI <- data.frame(data_HDI)
