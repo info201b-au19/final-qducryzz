@@ -6,9 +6,11 @@ output: html_document
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
 library(knitr)
-source("Summary_data.R")
-source("Summary_table.R")
-source("")
+source("./scripts/Summary_data.R")
+source("./scripts/Summary_table.R")
+source("./scripts/chart1.R")
+source("./scripts/chart2.R")
+source("./scripts/chart3.R")
 
 ```
 
