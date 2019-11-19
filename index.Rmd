@@ -52,9 +52,14 @@ p
 
 ```
 
-This shows the yearly change in the relationship between a countries emission rate, and the quality of life of said countries citizens <br> 
-(under the reasonable assumption that life expectancy is an apposite indicator of overall quality of life). <br>
-As shown above the lifespan of the citizens increases as the country emits more greenhouse gases, meaning that it is in the direct interest <br> 
-of a country and its citizens to industrialize and pollute the environment; as not doing so would stymie economic and social progress.
+This shows the yearly change in the relationship between a countries emission <br>
+rate, and the quality of life of said countries citizens (under the reasonable <br> 
+assumption that life expectancy is an apposite indicator of overall quality of life). <br>
+As shown above the lifespan of the citizens increases as the country emits more <br>
+greenhouse gases, meaning that it is in the direct interest of a country and <br>
+its citizens to industrialize and pollute the environment; <br> 
+as not doing so would stymie economic and social progress.
 <br>
-Data comes from two sources: the Carbon Dioxide Information Analysis Center (CDIAC), and the World Bank. The solid lines track a countries emission of greenhouse gases (in million metric tons of CO2). The dashed life tracks the average life expectancy at birth. 
+Data comes from two sources: the Carbon Dioxide Information Analysis Center (CDIAC), <br> 
+and the World Bank. The solid lines track a countries emission of greenhouse gases <br>
+(in million metric tons of CO2). The dashed life tracks the average life expectancy at birth. 
