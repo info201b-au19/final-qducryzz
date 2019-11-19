@@ -40,6 +40,7 @@ chart2 <- ggplot(TopNations1950, mapping = aes(x = Year)) +
   geom_line(aes(y = Total, color = Country, group = Country)) +
   scale_y_continuous(sec.axis = sec_axis(~ . / 30000, name = "Life Expectancy (Years0")) +
   geom_line(aes(y = mean * 30000)) +
+  geom_point(aes(y = mean * 30000)) +
   ggtitle("CO2 Emissions from 1960 - 2014") +
   ylab("CO2 (Million Metric Tons)")
 
