@@ -21,7 +21,7 @@ source("./scripts/chart3.R")
 We choose CO2 emission as our field of study due to our shared interest in climate change and natural environments. At the same time, we think the natural environment plays an important role in our daily life, so we want to get to know more about the correlation between humans and the environment.
 
 ## Source of data:
-
+[Data on co2 emission per country from the CDIAC](https://datahub.io/core/co2-fossil-by-nation#readme) <br>
 
 ## Summary Information
 
