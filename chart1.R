@@ -6,8 +6,8 @@ library(dplyr)
 # This chart was intended to show the relationship between
 # CO2 emmisions per capita and GDP per capita for
 # diffrent countries in the world from 1800-2016.
-# It is pretty obvious that the U.S. always in a 
-# very high position on both GDP per capita and 
+# It is pretty obvious that the U.S. always in a
+# very high position on both GDP per capita and
 # CO2 emission per capita after 1900.
 
 co_emission_data <- read.csv("./data/GDP&CO2.csv")
@@ -34,9 +34,9 @@ ui <- fluidPage(
     )
   )
 )
-# Since both China and India has very high population, I 
+# Since both China and India has very high population, I
 # choose to calculate the parameter of those markers in
-# a slight different way so that they won't take over the whole 
+# a slight different way so that they won't take over the whole
 # chart.
 server <- function(input, output) {
   output$BubbleChart <- renderPlotly({
