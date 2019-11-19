@@ -5,7 +5,7 @@ output:
 runtime: shiny
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 
 library(knitr)
 source("./scripts/Summary_info.R")
