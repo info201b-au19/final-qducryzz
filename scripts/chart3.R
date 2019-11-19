@@ -11,22 +11,22 @@ library(ggplot2)
 library(dplyr)
 library(tidyverse)
 
-data_HDI <- read.csv("../data/Human_development_index_(HDI)(TRANSPOSED).csv")
-data_re <- read.csv("../data/Renewable_Energy_Production.csv")
+data_HDI <- read.csv("./data/Human_development_index_(HDI)(TRANSPOSED).csv")
+data_re <- read.csv("./data/Renewable_Energy_Production.csv")
 
 data_HDI <- data.frame(data_HDI)
 
 meanHDI <- data.frame(Country=data_HDI[,1], Mean_HDI=rowMeans(data_HDI[,-1], na.rm = TRUE))
-write.csv(meanHDI, "../data/meanHDI.csv", row.names = TRUE)
+write.csv(meanHDI, "./data/meanHDI.csv", row.names = TRUE)
 
 data_re$Indicator.Code <- NULL
 data_re$Indicator.Name <- NULL
 data_re$Country.Code <- NULL
 meanRE <- data.frame(Country=data_re[,1], Mean_re=rowMeans(data_re[,-1], na.rm = TRUE))
-write.csv(meanRE, "../data/meanRE.csv", row.names = TRUE)
+write.csv(meanRE, "./data/meanRE.csv", row.names = TRUE)
 
 both_RE_HDI <- merge(meanHDI, meanRE)
-write.csv(meanRE, "../data/both_RE_HDI.csv", row.names = TRUE)
+write.csv(meanRE, "./data/both_RE_HDI.csv", row.names = TRUE)
 
 createAveragesPlot <- function(both_RE_HDI) {
   gg <- ggplot(both_RE_HDI, aes(both_RE_HDI$Mean_HDI, both_RE_HDI$Mean_re, color = both_RE_HDI$Mean_HDI)) +

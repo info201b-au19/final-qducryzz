@@ -1,12 +1,13 @@
 ---
 title: "CO2 emission"
-output: html_document
+output:
+  html_document: default
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
 library(knitr)
-source("./scripts/Summary_data.R")
+source("./scripts/Summary_info.R")
 source("./scripts/Summary_table.R")
 source("./scripts/chart1.R")
 source("./scripts/chart2.R")
@@ -38,6 +39,7 @@ much with a less than one year increase each year from
 
 ```{r echo=FALSE, warning=FALSE}
 
-Summary_table
+kable(Summary_table,
+      row.names = FALSE)
 
 ```

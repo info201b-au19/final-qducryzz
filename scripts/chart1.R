@@ -16,13 +16,12 @@ library(dplyr)
 # 21st century.
 
 
-co_emission_data <- read.csv("../data/GDP&CO2.csv")
+co_emission_data <- read.csv("./data/GDP&CO2.csv")
 
 co_emission_data[is.na(co_emission_data)] <- 0
 
 co_emission_data_nw <- co_emission_data %>%
   filter(Year >= 1800 & Year <= 2016)
-View(co_emission_data_nw)
 ui <- fluidPage(
   h1("CO2 emissions per capita vs GDP per capita"),
 
