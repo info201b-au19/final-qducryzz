@@ -25,8 +25,8 @@ library(tidyverse)
 # meanRE <- data.frame(Country=data_re[,1], Mean_re=rowMeans(data_re[,-1]))
 # write.csv(meanRE, "data/meanRE.csv", row.names = TRUE)
 # 
-# both <- merge(meanHDI, meanRE)
-# write.csv(meanRE, "data/both.csv", row.names = TRUE)
+# both_RE_HDI <- merge(meanHDI, meanRE)
+# write.csv(meanRE, "data/both_RE_HDI.csv", row.names = TRUE)
 
 createAveragesPlot <- function(both_RE_HDI$Mean_HDI, both_RE_HDI$Mean_re) {
   gg <- ggplot(both_RE_HDI, aes(both_RE_HDI$Mean_HDI, both_RE_HDI$Mean_re, color = both_RE_HDI$Mean_HDI)) +
