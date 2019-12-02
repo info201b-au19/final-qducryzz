@@ -25,7 +25,7 @@ server <- function(input, output, session){
   
   Renewable_ene$Year <- Renewable_ene$Year %>%
     str_replace("X", "") %>%
-
+    as.numeric()
   
   # Combine HDI & Renewable Energy
   HDI_Renewable <- HDI %>%
@@ -46,8 +46,7 @@ server <- function(input, output, session){
   # Combine the data 
   Emission_Renewable <- Renewable_ene %>%
     left_join(CO2_emission_total, by = c("Country","Year")) %>%
-
- 
+    na.omit()
   
   
   
