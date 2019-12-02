@@ -25,7 +25,7 @@ server <- function(input, output, session){
   
   Renewable_ene$Year <- Renewable_ene$Year %>%
     str_replace("X", "") %>%
-    as.numeric()
+
   
   # Combine HDI & Renewable Energy
   HDI_Renewable <- HDI %>%
@@ -46,7 +46,7 @@ server <- function(input, output, session){
   # Combine the data 
   Emission_Renewable <- Renewable_ene %>%
     left_join(CO2_emission_total, by = c("Country","Year")) %>%
-    na.omit()
+
  
   
   
@@ -122,7 +122,7 @@ server <- function(input, output, session){
     
     plot_ly(HDI_Renewable_nw, x = ~Year, y = ~Renewable, type = 'scatter', mode = 'lines', text = ~paste0("Year: ", Year, "<br>Renewable Consumption: ", Renewable, "%"),
             hoverinfo = 'text') %>%
-      layout(xaxis = list(title = "Year"), yaxis = list(title = "Renewable consumption (%)"), title = paste0(input$data_page_two_country, " HDI"))
+      layout(xaxis = list(title = "Year"), yaxis = list(title = "Renewable consumption (%)"), title = paste(input$data_page_two_country, " HDI"))
   })
   
   
