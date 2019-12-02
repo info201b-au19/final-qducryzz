@@ -104,10 +104,17 @@ data_page_three <- tabPanel(
   )
 )
 
+# Adding empty (for now) summary tab
+summary <- tabPanel(
+  "Summary",
+)
+
 ui <- navbarPage(
   "Final Project",
   introduction,
   data_page_one,
   data_page_two,
-  data_page_three
+  data_page_three,
+  summary
 )
+
