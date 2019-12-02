@@ -3,6 +3,11 @@ library(tidyr)
 library(dplyr)
 library(stringr)
 
+# Adding empty (for now) introduction tab
+introduction <- tabPanel(
+  "Introduction",
+)
+
 # Take CO2_emission and reorganized the data
 CO2_emission <- read.csv("./data/GDP&CO2.csv")
 CO2_emission <- CO2_emission %>%
@@ -39,9 +44,9 @@ CO2_emission_total <- CO2_emission_total %>%
 
 CO2_emission_total$Country <- str_to_title(CO2_emission_total$Country)
 
-# Combine the data
+# Combine the data 
 Emission_Renewable <- Renewable_ene %>%
-  left_join(CO2_emission_total, by = c("Country", "Year")) %>%
+  left_join(CO2_emission_total, by = c("Country","Year")) %>%
   na.omit()
 
 
@@ -52,10 +57,7 @@ data_page_one_graph <- mainPanel(
   plotlyOutput("data_one_GDP_line")
 )
 data_page_one_control <- sidebarPanel(
-  selectInput("data_page_one_country", "Country",
-    choices = unique(CO2_emission$Entity),
-    selected = unique(CO2_emission$Entity)[1]
-  )
+  selectInput("data_page_one_country", "Country", choices = CO2_emission$Entity)
 )
 data_page_one <- tabPanel(
   "GDP & CO2 Emission Level ",
@@ -72,10 +74,7 @@ data_page_two_graph <- mainPanel(
 )
 
 data_page_two_control <- sidebarPanel(
-  selectInput("data_page_two_country", "Country",
-    choices = unique(HDI_Renewable$Country),
-    selected = unique(HDI_Renewable$Country[2])
-  )
+  selectInput("data_page_two_country", "Country", choices = HDI_Renewable$Country)
 )
 
 data_page_two <- tabPanel(
@@ -93,9 +92,7 @@ data_page_three_graph <- mainPanel(
 )
 
 data_page_three_control <- sidebarPanel(
-  selectInput("data_page_three_year", "Year",
-    choices = unique(Emission_Renewable$Year)
-  ),
+  selectInput("data_page_three_year", "Year", choices = unique(Emission_Renewable$Year)),
   selectInput("data_page_three_country", "Country", choices = list())
 )
 
@@ -109,6 +106,7 @@ data_page_three <- tabPanel(
 
 ui <- navbarPage(
   "Final Project",
+  introduction,
   data_page_one,
   data_page_two,
   data_page_three
