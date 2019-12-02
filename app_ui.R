@@ -6,6 +6,8 @@ library(stringr)
 # Adding empty (for now) introduction tab
 introduction <- tabPanel(
   "Introduction",
+  sidebarPanel("Insert background info about data here"),
+  mainPanel("Insert purpose/importance of the project here")
 )
 
 # Take CO2_emission and reorganized the data
