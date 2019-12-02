@@ -4,21 +4,21 @@ library(dplyr)
 library(plotly)
 
 server <- function(input, output, session){
-  # Take CO2_emission and reorganized the data
+  # Take CO2_emission and reorganized the dataset
   CO2_emission <- read.csv("./data/GDP&CO2.csv")
   CO2_emission <- CO2_emission %>%
     filter(CO2_emissions_per_capita != 0) %>%
     filter(!is.na(GDP_per_capita)) %>%
     mutate(Emission = CO2_emissions_per_capita*GDP_per_capita)
   
-  # Take HDI_emission and reorganized the data
+  # Take HDI_emission and reorganized the dataset
   HDI <- read.csv("./data/Human_development_index_(HDI).csv")
   HDI <- HDI %>%
     gather(key = "Country", value = "HDI", -Year) %>%
     select(Country, Year, HDI)
   HDI$Country <- str_to_title(HDI$Country)
   
-  # Take Renewable Energy Production and reorganized the data
+  # Take Renewable Energy Production and reorganized the dataset
   Renewable_ene <- read.csv("./data/Renewable_Energy_Production.csv")
   Renewable_ene <- Renewable_ene %>%
     gather(key = "Year", value = "Renewable", -Country)
@@ -115,7 +115,7 @@ server <- function(input, output, session){
       layout(xaxis = list(title = "Year"), yaxis = list(title = "HDI"), title = paste0(input$data_page_two_country, " HDI"))
   })
   
-  # Graph the Renewable consumption by years in the given country
+  # Graph the renewable energy consumption by years in the given country
   output$data_two_Renewable_line <- renderPlotly({
     HDI_Renewable_nw <- HDI_Renewable %>%
       filter(Country == input$data_page_two_country)
