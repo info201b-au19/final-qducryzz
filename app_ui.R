@@ -55,7 +55,7 @@ data_page_one_control <- sidebarPanel(
   selectInput("data_page_one_country", "Country", choices = CO2_emission$Entity)
 )
 data_page_one <- tabPanel(
-  "Page one",
+  "GDP & CO2 Emission Level ",
   sidebarLayout(
     data_page_one_control,
     data_page_one_graph
@@ -73,7 +73,7 @@ data_page_two_control <- sidebarPanel(
 )
 
 data_page_two <- tabPanel(
-  "Page Two",
+  "Renewable Consumption & HDI ",
   sidebarLayout(
     data_page_two_control,
     data_page_two_graph
@@ -92,7 +92,7 @@ data_page_three_control <- sidebarPanel(
 )
 
 data_page_three <- tabPanel(
-  "Page Three",
+  "Global CO2 Emission Level  ",
   sidebarLayout(
     data_page_three_control,
     data_page_three_graph
