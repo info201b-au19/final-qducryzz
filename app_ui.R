@@ -199,7 +199,7 @@ ui <- navbarPage(
 introduction <- tabPanel(
   "Introduction",
   sidebarLayout(
-    sidebarPanel(h5(HTML("<p>Data sources: <br>
+    sidebarPanel(HTML("<p> <span id = 'link_title'>Data sources: </span><br>
                   <ul>
                   <li> GDP </li>   
                   <li> Human Development Index </li>
@@ -212,7 +212,7 @@ introduction <- tabPanel(
                   The Carbon Dioxide Information Analysis Center (CDIAC) <br>
                   total CO2 emissions of each country in million metric tons </a> </li>
                   </ul>
-                  </p>"))),
+                  </p>")),
     mainPanel(
       HTML("
       <div class = 'intro'>
@@ -231,7 +231,6 @@ introduction <- tabPanel(
     )
   )
 )
-
 
 
 # Adding empty (for now) summary tab
