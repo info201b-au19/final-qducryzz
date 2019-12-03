@@ -73,9 +73,9 @@ server <- function(input, output, session) {
       hoverinfo = "text"
     ) %>%
       layout(
-        xaxis = list(title = "GDP (USD)"),
+        xaxis = list(title = "GDP per Capita (USD)"),
         yaxis = list(title = "CO2 Emission (Tons)"),
-        title = "CO2 Emission v.s GDP"
+        title = "CO2 Emission v.s GDP per capita (Mean)"
       )
   })
 
@@ -202,7 +202,7 @@ server <- function(input, output, session) {
       layout(
         xaxis = list(title = "Year"),
         yaxis = list(title = "Renewable consumption (%)"),
-        title = paste(input$data_page_two_country, " HDI")
+        title = paste(input$data_page_two_country, " Renewable Energy Consumption")
       )
   })
 
@@ -258,7 +258,7 @@ server <- function(input, output, session) {
       )
   })
 
-  # Graph the country Enemy consumption
+  # Graph the country Energy consumption
   output$data_three_energy_usage_pie <- renderPlotly({
     Emission_Renewable_nw <- Emission_Renewable %>%
       filter(Year == input$data_page_three_year) %>%
@@ -300,4 +300,6 @@ server <- function(input, output, session) {
       choices = choice
     )
   })
+  
+  
 }

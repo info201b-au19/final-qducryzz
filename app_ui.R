@@ -48,13 +48,41 @@ Emission_Renewable <- Renewable_ene %>%
 # CO2&GDP Graph (Page 1)
 data_page_one_graph <- mainPanel(
   plotlyOutput("data_one_scatter"),
+  tags$hr(),
   plotlyOutput("data_one_CO2_line"),
+  tags$hr(),
   plotlyOutput("data_one_GDP_line")
 )
 data_page_one_control <- sidebarPanel(
   selectInput("data_page_one_country", "Country",
     choices = unique(CO2_emission$Entity),
     selected = unique(CO2_emission$Entity)[1]
+  ),
+  HTML(
+    "<p>Descriptions: <br>
+1. The purpose of the first page is to show audiences  
+the relationship between CO2 emissions and GDP per capita 
+in both global and individual countries' perspectives,
+which helps people to understand how much does 
+CO2 emission influences GDP per capita. <br>
+
+2. For the first scatter plot, 
+by using the mean value of each countries’ CO2 emission 
+and GDP per capita, it’s obvious to see that most counties 
+lie in the CO2 emission of 2millions tons and GDP of 50K USD area, 
+along with a positive relationship between two variables. 
+However, there are some outliers like Kuwait, UAE, and Qatar, 
+which have much higher CO2 emissions and GDP per capita as
+Qatar is the extremest one in the chart. <br>
+
+3. By choosing a specific country, 
+it is clear for audiences to see that CO2 emission level and 
+GDP per capita has a very similar 
+increasing and decreasing pattern. 
+Take the US as an example, 
+the charts of both CO2 emissions and GDP per capita 
+show a highly similar trend as the increase was pretty 
+slow before 1900 and started surging after 1932. </p>"
   )
 )
 data_page_one <- tabPanel(
@@ -75,8 +103,33 @@ data_page_two_control <- sidebarPanel(
   selectInput("data_page_two_country", "Country",
     choices = unique(HDI_Renewable$Country),
     selected = unique(HDI_Renewable$Country[2])
+  ),
+  HTML(
+    "<p>Descriptions: <br>
+1. The purpose of the second page is to show audiences 
+the relationship between renewable energy production 
+and Human Development Index as we want to know that 
+whether or not does higher renewable energy consumption 
+mean a higher standard of living (eg. HDI). <br>
+
+2. From the first chart, we can see a general downward 
+trend of higher HDI links to lower renewable energy 
+consumption. However, there are also some countries 
+like Iceland, Liechtenstein, and Norway, which have 
+both relatively high HDI levels and renewable energy consumption. <br>
+
+3. Selecting a specific country gives readers the 
+chance of getting to know the overall trend of HDI 
+and renewable energy consumption in that given 
+country since different countries tend to have 
+different relationships regarding those variables. 
+For example, in Afghanistan, the HDI level kept increasing 
+while renewable energy consumption generally kept declining
+(with a slight increase from 2011-2013) from 2002 to 2014. </p>"
   )
 )
+
+
 
 data_page_two <- tabPanel(
   "Renewable Consumption & HDI ",
@@ -96,7 +149,33 @@ data_page_three_control <- sidebarPanel(
   selectInput("data_page_three_year", "Year",
     choices = unique(Emission_Renewable$Year)
   ),
-  selectInput("data_page_three_country", "Country", choices = list())
+  selectInput("data_page_three_country", "Country", choices = list()),
+  HTML(
+    "<p>Descriptions: <br>
+1. The purpose of the first page is to show audiences  
+the relationship between CO2 emissions and GDP per capita 
+in both global and individual countries' perspectives,
+which helps people to understand how much does 
+CO2 emission influences GDP per capita. <br>
+
+2. For the first scatter plot, 
+by using the mean value of each countries’ CO2 emission 
+and GDP per capita, it’s obvious to see that most counties 
+lie in the CO2 emission of 2millions tons and GDP of 50K USD area, 
+along with a positive relationship between two variables. 
+However, there are some outliers like Kuwait, UAE, and Qatar, 
+which have much higher CO2 emissions and GDP per capita as
+Qatar is the extremest one in the chart. <br>
+
+3. By choosing a specific country, 
+it is clear for audiences to see that CO2 emission level and 
+GDP per capita has a very similar 
+increasing and decreasing pattern. 
+Take the US as an example, 
+the charts of both CO2 emissions and GDP per capita 
+show a highly similar trend as the increase was pretty 
+slow before 1900 and started surging after 1932. </p>"
+  )
 )
 
 data_page_three <- tabPanel(
