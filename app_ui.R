@@ -166,29 +166,30 @@ data_page_three_control <- sidebarPanel(
   HTML(
     "<p>Descriptions: 
     <ol>
-<li> The purpose of the first page is to show audiences  
-the relationship between CO2 emissions and GDP per capita 
-in both global and individual countries' perspectives,
-which helps people to understand how much does 
-CO2 emission influences GDP per capita. </li>
+<li> The third page contains three charts about global 
+CO2 emissions, and it reveals an increasing trend 
+using the line chart since 1990 with a slight 
+drop around 2008 and 3.2 million in 2014. </li>
 
-<li> For the first scatter plot, 
-by using the mean value of each countries’ CO2 emission 
-and GDP per capita, it’s obvious to see that most counties 
-lie in the CO2 emission of 2millions tons and GDP of 50K USD area, 
-along with a positive relationship between two variables. 
-However, there are some outliers like Kuwait, UAE, and Qatar, 
-which have much higher CO2 emissions and GDP per capita as
-Qatar is the extremest one in the chart. </li>
+<li> The bar chart gives an overall insight 
+into global total CO2 consumption. 
+By selecting a different year from the sidebar, 
+the chart changes with the different total 
+amount in that year. Besides, audiences can 
+zoom in to have a closer look at the rank 
+of different countries. </li>
 
-<li> By choosing a specific country, 
-it is clear for audiences to see that CO2 emission level and 
-GDP per capita has a very similar 
-increasing and decreasing pattern. 
-Take the US as an example, 
-the charts of both CO2 emissions and GDP per capita 
-show a highly similar trend as the increase was pretty 
-slow before 1900 and started surging after 1932. </li>
+<li> By choosing the year and country, 
+the pie chart at the bottom can let audiences s
+ee the breakdown of that chosen country’s 
+energy consumption as the orange part 
+represents the percent of both renewable 
+energy and Nonrenewable energy consumption 
+in regards to the total energy consumption. 
+For example, in the year of 2009, 25.9% of 
+Iceland’s energy consumption was nonrenewable 
+consumption while 74.1% of the energy consumption
+was renewable energy consumption. </li>
     </ol>
     </p>"
   )
@@ -243,9 +244,9 @@ introduction <- tabPanel(
 # Adding empty (for now) summary tab
 summary <- tabPanel(
   "Summary",
-    mainPanel(
-      includeMarkdown("summary.md"),
-    )
+  mainPanel(
+    includeMarkdown("summary.md"),
+  )
 )
 
 ui <- navbarPage(
@@ -257,4 +258,3 @@ ui <- navbarPage(
   summary,
   includeCSS("./CSS/Final.css")
 )
-
