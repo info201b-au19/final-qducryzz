@@ -3,5 +3,5 @@ li {
 }
 
 ol > li {
-  type: "I";
+  list-style: upper-roman;
 }
