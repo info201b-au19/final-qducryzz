@@ -194,7 +194,7 @@ ui <- navbarPage(
   data_page_three
 )
 
-# Adding empty (for now) introduction tab
+# Adding introduction tab
 introduction <- tabPanel(
   titlePanel("Introduction"),
   sidebarLayout(
@@ -232,6 +232,9 @@ introduction <- tabPanel(
 # Adding empty (for now) summary tab
 summary <- tabPanel(
   "Summary",
+    mainPanel(
+      #includeMarkdown("summary.Rmd")
+    )
 )
 
 ui <- navbarPage(
