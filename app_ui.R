@@ -238,7 +238,7 @@ introduction <- tabPanel(
 summary <- tabPanel(
   "Summary",
     mainPanel(
-      #includeMarkdown("summary.Rmd")
+      includeMarkdown("summary.md"),
     )
 )
 
