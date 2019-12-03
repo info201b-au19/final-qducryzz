@@ -1,9 +1,7 @@
-
 library(shiny)
 library(tidyr)
 library(dplyr)
 library(stringr)
-library(plotly)
 
 # Take CO2_emission and reorganized the data
 CO2_emission <- read.csv("./data/GDP&CO2.csv")
@@ -154,29 +152,29 @@ data_page_three_control <- sidebarPanel(
   selectInput("data_page_three_country", "Country", choices = list()),
   HTML(
     "<p>Descriptions: <br>
-1. The purpose of the first page is to show audiences  
-the relationship between CO2 emissions and GDP per capita 
-in both global and individual countries' perspectives,
-which helps people to understand how much does 
-CO2 emission influences GDP per capita. <br>
+1. The third page contains three charts about global 
+CO2 emissions, and it reveals an increasing trend using 
+the line chart since 1990 with a slight drop around 2008 
+and 3.2 million in 2014. . <br>
 
-2. For the first scatter plot, 
-by using the mean value of each countries’ CO2 emission 
-and GDP per capita, it’s obvious to see that most counties 
-lie in the CO2 emission of 2millions tons and GDP of 50K USD area, 
-along with a positive relationship between two variables. 
-However, there are some outliers like Kuwait, UAE, and Qatar, 
-which have much higher CO2 emissions and GDP per capita as
-Qatar is the extremest one in the chart. <br>
+2. The bar chart gives an overall insight into global 
+total CO2 consumption. By selecting a different 
+year from the sidebar, the chart changes with 
+the different total amount in that year. 
+Besides, audiences can zoom in to have a closer 
+look at the rank of different countries. <br>
 
-3. By choosing a specific country, 
-it is clear for audiences to see that CO2 emission level and 
-GDP per capita has a very similar 
-increasing and decreasing pattern. 
-Take the US as an example, 
-the charts of both CO2 emissions and GDP per capita 
-show a highly similar trend as the increase was pretty 
-slow before 1900 and started surging after 1932. </p>"
+3. By choosing the year and country, the pie 
+chart at the bottom can let audiences see 
+the breakdown of that chosen country’s energy 
+consumption as the orange part represents 
+the percent of both renewable energy and 
+Nonrenewable energy consumption in regards 
+to the total energy consumption. For example,
+in the year of 2009, 25.9% of Iceland’s energy 
+consumption was nonrenewable consumption while 
+74.1% of the energy consumption was renewable 
+energy consumption . </p>"
   )
 )
 
@@ -195,53 +193,46 @@ ui <- navbarPage(
   data_page_three
 )
 
-# Adding introduction tab
+# Introduction Page
 introduction <- tabPanel(
-  "Introduction",
+  titlePanel("Introduction"),
   sidebarLayout(
     sidebarPanel(h5(HTML("<p>Data sources: <br>
-                  <ul>
-                  <li> GDP </li>   
-                  <li> Human Development Index </li>
-                  <li> The United Nations Human Development Reports Office, <br>
-                  Composite index of life expectancy, eductaion, and per capita income </li>
-                  <li> Renewable Energy Production </li>
-                  <li> The World Bank, and the International Energy Agency, <br>
-                  percentage of renewable enrgy production for a country </li>
-                  <li> <a href = 'https://datahub.io/core/co2-fossil-by-nation#read'> CO2 Emissions 
+                  GDP -  
+                  <br>
+                  Human Development Index - <br>
+                  The United Nations Human Development Reports Office, <br>
+                  Composite index of life expectancy, eductaion, and per capita income <br>
+                  <br>
+                  Renewable Energy Production - <br>
+                  The World Bank, and the International Energy Agency, <br>
+                  percentage of renewable enrgy production for a country <br>
+                  <br>
+                  **[CO2 Emissions](https://datahub.io/core/co2-fossil-by-nation#readme):** - <br>
                   The Carbon Dioxide Information Analysis Center (CDIAC) <br>
-                  total CO2 emissions of each country in million metric tons </a> </li>
-                  </ul>
-                  </p>"))),
+                  total CO2 emissions of each country in million metric tons <br> <p>"))),
     mainPanel(
-      HTML("
-      <div class = 'intro'>
-          Developed countires have benefited from decades and centuries of industrialization 
-          fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
-          with a quality of life previously unheard of, polluting the collective global atmosphere 
-          for their individual gain and to facilitate the creation of seemingly endless amounts of 
-          cheap energy. Contrarily this had allowed developed countries to begin to develop  cheap 
-          renewable energy and move away from fossil fuels. The universal desire of devleoping coutries 
-          to themselves extract their resources to better the lives of their citizens, while obviously 
-          damaging to the planet, is therefore understandable. In order to show these relationships 
-          we focused upon the interaction between CO2 emissions, a countries GDP, a countries adobtion 
-          of green energy, and the Human Development Index used by the UN.
-      </div>
-      ")
+      h3("Developed countires have benefited from decades and centuries of industrialization 
+             fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
+             with a quality of life previously unheard of, polluting the collective global atmosphere 
+             for their individual gain and to facilitate the creation of seemingly endless amounts of 
+             cheap energy. Contrarily this had allowed developed countries to begin to develop  cheap 
+             renewable energy and move away from fossil fuels. The universal desire of devleoping coutries 
+             to themselves extract their resources to better the lives of their citizens, while obviously 
+             damaging to the planet, is therefore understandable. In order to show these relationships 
+             we focused upon the interaction between CO2 emissions, a countries GDP, a countries adobtion 
+             of green energy, and the Human Development Index used by the UN.")
     )
   )
 )
 
 
 
-# Adding empty (for now) summary tab
+# Summary Page
 summary <- tabPanel(
   "Summary",
-    mainPanel(
-      includeMarkdown("summary.md"),
-    )
 )
-
+# Navigatioon bar
 ui <- navbarPage(
   "Final Project",
   introduction,
@@ -250,4 +241,3 @@ ui <- navbarPage(
   data_page_three,
   summary
 )
-
