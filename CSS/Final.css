@@ -5,3 +5,19 @@ li {
 ol > li {
   list-style: upper-roman;
 }
+
+.intro {
+  width: 80%;
+  margin: auto;
+  font-size: 1.5em;
+  font-family: "Arial";
+}
+
+.Title{
+  font-size: 1.5em;
+}
+
+img{
+  margin: auto;
+  width: 80%;
+}

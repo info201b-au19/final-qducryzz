@@ -223,6 +223,7 @@ introduction <- tabPanel(
                   </p>")),
     mainPanel(
       HTML("
+      <img src = './images/co2.0.jpg' alt = 'Intro image'>
       <div class = 'intro'>
           Developed countires have benefited from decades and centuries of industrialization 
           fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
@@ -244,13 +245,14 @@ introduction <- tabPanel(
 # Adding empty (for now) summary tab
 summary <- tabPanel(
   "Summary",
+  HTML("<img src = './images/images.png' alt = 'Summary Image'>"),
   mainPanel(
     includeMarkdown("summary.md"),
   )
 )
 
 ui <- navbarPage(
-  "Final Project",
+  HTML("<span class = Title><b>Final Project</b><span>"),
   introduction,
   data_page_one,
   data_page_two,
