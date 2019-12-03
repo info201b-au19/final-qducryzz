@@ -97,7 +97,9 @@ data_page_one <- tabPanel(
 
 data_page_two_graph <- mainPanel(
   plotlyOutput("data_two_scatter"),
+  tags$hr(),
   plotlyOutput("data_two_HDI_line"),
+  tags$hr(),
   plotlyOutput("data_two_Renewable_line")
 )
 
@@ -143,7 +145,9 @@ data_page_two <- tabPanel(
 
 data_page_three_graph <- mainPanel(
   plotlyOutput("data_three_total_emission"),
+  tags$hr(),
   plotlyOutput("data_three_year_emission"),
+  tags$hr(),
   plotlyOutput("data_three_energy_usage_pie")
 )
 
@@ -186,13 +190,6 @@ data_page_three <- tabPanel(
     data_page_three_control,
     data_page_three_graph
   )
-)
-
-ui <- navbarPage(
-  "Final Project",
-  data_page_one,
-  data_page_two,
-  data_page_three
 )
 
 # Adding introduction tab
