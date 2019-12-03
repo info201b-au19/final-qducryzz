@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 library(shiny)
 library(tidyr)
 library(dplyr)
@@ -193,7 +193,7 @@ ui <- navbarPage(
   data_page_two,
   data_page_three
 )
-=======
+
 library(shiny)
 library(tidyr)
 library(dplyr)
@@ -342,4 +342,3 @@ ui <- navbarPage(
   summary
 )
 
->>>>>>> fc92d597ffb5dcf68683e07c905ec3c09f202b9e
