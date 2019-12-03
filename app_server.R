@@ -41,14 +41,13 @@ server <- function(input, output, session) {
   CO2_emission_total <- CO2_emission_total %>%
     select(Year, Country, Total)
 
-  CO2_emission_total$Country <- str_to_title(CO2_emission_total$Country)
+  CO2_emission_total$Country <- str_to_title(CO2_emission_total$Country) %>%
+    str_replace("China \\(Mainland\\)", "China")
 
   # Combine the data
   Emission_Renewable <- Renewable_ene %>%
     left_join(CO2_emission_total, by = c("Country", "Year")) %>%
     na.omit()
-
-
 
 
   # Display the scatter plot for the first plot
@@ -303,4 +302,3 @@ server <- function(input, output, session) {
   
   
 }
-
