@@ -3,6 +3,7 @@ library(shiny)
 library(tidyr)
 library(dplyr)
 library(stringr)
+library(plotly)
 
 # Take CO2_emission and reorganized the data
 CO2_emission <- read.csv("./data/GDP&CO2.csv")
@@ -196,33 +197,37 @@ ui <- navbarPage(
 
 # Adding introduction tab
 introduction <- tabPanel(
-  titlePanel("Introduction"),
+  "Introduction",
   sidebarLayout(
     sidebarPanel(h5(HTML("<p>Data sources: <br>
-                  GDP -  
-                  <br>
-                  Human Development Index - <br>
-                  The United Nations Human Development Reports Office, <br>
-                  Composite index of life expectancy, eductaion, and per capita income <br>
-                  <br>
-                  Renewable Energy Production - <br>
-                  The World Bank, and the International Energy Agency, <br>
-                  percentage of renewable enrgy production for a country <br>
-                  <br>
-                  **[CO2 Emissions](https://datahub.io/core/co2-fossil-by-nation#readme):** - <br>
+                  <ul>
+                  <li> GDP </li>   
+                  <li> Human Development Index </li>
+                  <li> The United Nations Human Development Reports Office, <br>
+                  Composite index of life expectancy, eductaion, and per capita income </li>
+                  <li> Renewable Energy Production </li>
+                  <li> The World Bank, and the International Energy Agency, <br>
+                  percentage of renewable enrgy production for a country </li>
+                  <li> <a href = 'https://datahub.io/core/co2-fossil-by-nation#read'> CO2 Emissions 
                   The Carbon Dioxide Information Analysis Center (CDIAC) <br>
-                  total CO2 emissions of each country in million metric tons <br> <p>"))),
+                  total CO2 emissions of each country in million metric tons </a> </li>
+                  </ul>
+                  </p>"))),
     mainPanel(
-      h3("Developed countires have benefited from decades and centuries of industrialization 
-             fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
-             with a quality of life previously unheard of, polluting the collective global atmosphere 
-             for their individual gain and to facilitate the creation of seemingly endless amounts of 
-             cheap energy. Contrarily this had allowed developed countries to begin to develop  cheap 
-             renewable energy and move away from fossil fuels. The universal desire of devleoping coutries 
-             to themselves extract their resources to better the lives of their citizens, while obviously 
-             damaging to the planet, is therefore understandable. In order to show these relationships 
-             we focused upon the interaction between CO2 emissions, a countries GDP, a countries adobtion 
-             of green energy, and the Human Development Index used by the UN.")
+      HTML("
+      <div class = 'intro'>
+          Developed countires have benefited from decades and centuries of industrialization 
+          fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
+          with a quality of life previously unheard of, polluting the collective global atmosphere 
+          for their individual gain and to facilitate the creation of seemingly endless amounts of 
+          cheap energy. Contrarily this had allowed developed countries to begin to develop  cheap 
+          renewable energy and move away from fossil fuels. The universal desire of devleoping coutries 
+          to themselves extract their resources to better the lives of their citizens, while obviously 
+          damaging to the planet, is therefore understandable. In order to show these relationships 
+          we focused upon the interaction between CO2 emissions, a countries GDP, a countries adobtion 
+          of green energy, and the Human Development Index used by the UN.
+      </div>
+      ")
     )
   )
 )
