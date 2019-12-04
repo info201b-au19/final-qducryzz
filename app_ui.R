@@ -3,7 +3,7 @@ library(tidyr)
 library(dplyr)
 library(stringr)
 library(plotly)
-
+library(rmarkdown)
 # Take CO2_emission and reorganized the data
 CO2_emission <- read.csv("./data/GDP&CO2.csv")
 CO2_emission <- CO2_emission %>%
@@ -258,7 +258,7 @@ summary <- tabPanel(
   "Summary",
   img(src = './images.png', alt = 'Summary Image', id = "Sum_image"),
   mainPanel(
-    includeMarkdown("summary.md"),
+   includeMarkdown("summary.md")
   )
 )
 
