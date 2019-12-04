@@ -217,7 +217,8 @@ introduction <- tabPanel(
     <li> <a href = 'http://hdr.undp.org/en/data'> Human Development Index </a> </li>
     <li> <a href = 'http://hdr.undp.org/en/composite/HDI'> 
          The United Nations Human Development Reports Office, <br>
-         Composite index of life expectancy, eductaion, and per capita income </a> </li>
+         Composite index of life expectancy, eductaion, and per 
+         capita income </a> </li>
     <li> <a href = 'https://data.world/oecd/renewable-energy'> 
          Renewable Energy Production </a> </li>
     <li> <a href = 'https://ourworldindata.org/renewable-energy'>The World Bank, 
