@@ -22,6 +22,8 @@ Renewable_ene <- read.csv("./data/Renewable_Energy_Production.csv")
 Renewable_ene <- Renewable_ene %>%
   gather(key = "Year", value = "Renewable", -Country)
 
+Renewable_ene$Country <- str_replace(Renewable_ene$Country, "0", " ")
+
 Renewable_ene$Year <- Renewable_ene$Year %>%
   str_replace("X", "") %>%
   as.numeric()
@@ -227,8 +229,8 @@ introduction <- tabPanel(
     </ul>
     </p>")),
     mainPanel(
+      img(src = './co2.0.jpg',alt = 'Intro image'),
       HTML("
-      <img src = './images/co2.0.jpg' alt = 'Intro image'>
       <div class = 'intro'>
          Starting from the industrial revolution, 
          our life has changed dramatically from the 
@@ -254,7 +256,7 @@ introduction <- tabPanel(
 # Adding empty (for now) summary tab
 summary <- tabPanel(
   "Summary",
-  HTML("<img src = './images/images.png' alt = 'Summary Image'>"),
+  img(src = './images.png', alt = 'Summary Image', id = "Sum_image"),
   mainPanel(
     includeMarkdown("summary.md"),
   )

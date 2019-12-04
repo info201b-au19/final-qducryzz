@@ -11,6 +11,7 @@ ol > li {
   margin: auto;
   font-size: 1.5em;
   font-family: "Arial";
+  text-align: left;
 }
 
 .Title{
@@ -20,4 +21,9 @@ ol > li {
 img{
   margin: auto;
   width: 80%;
+}
+
+#Sum_image {
+  width: 200px;
+  height: 200px;
 }

@@ -22,7 +22,8 @@ server <- function(input, output, session) {
   Renewable_ene <- read.csv("./data/Renewable_Energy_Production.csv")
   Renewable_ene <- Renewable_ene %>%
     gather(key = "Year", value = "Renewable", -Country)
-
+  Renewable_ene$Country <- str_replace(Renewable_ene$Country, "0", " ")
+  
   Renewable_ene$Year <- Renewable_ene$Year %>%
     str_replace("X", "") %>%
     as.numeric()
@@ -42,7 +43,8 @@ server <- function(input, output, session) {
     select(Year, Country, Total)
 
   CO2_emission_total$Country <- str_to_title(CO2_emission_total$Country) %>%
-    str_replace("China \\(Mainland\\)", "China")
+    str_replace("China \\(Mainland\\)", "China") %>%
+    str_replace("United States Of America", "United States")
 
   # Combine the data
   Emission_Renewable <- Renewable_ene %>%
