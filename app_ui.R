@@ -226,27 +226,24 @@ introduction <- tabPanel(
          percentage of renewable energy production</a> </li>
     <li> <a href = 'https://datahub.io/core/co2-fossil-by-nation#read'> CO2 Emissions 
          The Carbon Dioxide Information Analysis Center (CDIAC) <br>
-        total CO2 emissions of each country in million metric tons </a> </li>
+         total CO2 emissions of each country in million metric tons </a> </li>
     </ul>
     </p>")),
     mainPanel(
       img(src = './co2.0.jpg',alt = 'Intro image'),
       HTML("
       <div class = 'intro'>
-         Starting from the industrial revolution, 
-         our life has changed dramatically from the 
-         traditional manual to mechanized laboring, 
-         which has made our life much easier and more 
-         convenient than ever before. However, everything 
-         has two sides as CO2 emissions surged rapidly 
-         throughout the year which has caused many 
-         controversies on both environmentally to the 
-         earth and physically to the human. In this project, 
-         we are seeking to figure out does this dramatic 
-         increase in CO2 emission worth it or not by seeing 
-         the relationships among GDP per capita, HDI, 
-         renewable energy consumption, and CO2 emission 
-         in the whole world and different countries.
+         Industrialization has allowed developed countries 
+         to dramatically increase the size and scale of their 
+         economies and well as improve the quality of life of their
+         citizens. These developed countries have benefited
+         from decades of fossil fuel powered economic growth;
+         their prosperity fueled via the pollution of the
+         environment. In this project, we seek to figure out 
+         if it is in a countries best interest to use 
+         fossil fuels by looking at the relationships between 
+         Goss Domestic Product (GDP), the Human Development Index (HDI
+         renewable energy production, and CO2 emissions.
       </div>
       ")
     )
