@@ -208,33 +208,42 @@ introduction <- tabPanel(
   "Introduction",
   sidebarLayout(
     sidebarPanel(HTML("<p> <span id = 'link_title'>Data sources: </span><br>
-                  <ul>
-                  <li> GDP </li>   
-                  <li> Human Development Index </li>
-                  <li> The United Nations Human Development Reports Office, <br>
-                  Composite index of life expectancy, eductaion, and per capita income </li>
-                  <li> Renewable Energy Production </li>
-                  <li> The World Bank, and the International Energy Agency, <br>
-                  percentage of renewable enrgy production for a country </li>
-                  <li> <a href = 'https://datahub.io/core/co2-fossil-by-nation#read'> CO2 Emissions 
-                  The Carbon Dioxide Information Analysis Center (CDIAC) <br>
-                  total CO2 emissions of each country in million metric tons </a> </li>
-                  </ul>
-                  </p>")),
+                  
+    <ul>
+    <li> <a href = 'https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions'>
+         GDP per capita v.s. CO2 emission dataset</a> </li>   
+    <li> <a href = 'http://hdr.undp.org/en/data'> Human Development Index </a> </li>
+    <li> <a href = 'http://hdr.undp.org/en/composite/HDI'> 
+         The United Nations Human Development Reports Office, <br>
+         Composite index of life expectancy, eductaion, and per capita income </a> </li>
+    <li> <a href = 'https://data.world/oecd/renewable-energy'> 
+         Renewable Energy Production </a> </li>
+    <li> <a href = 'https://ourworldindata.org/renewable-energy'>The World Bank, 
+         and the International Energy Agency, <br>
+         percentage of renewable energy production</a> </li>
+    <li> <a href = 'https://datahub.io/core/co2-fossil-by-nation#read'> CO2 Emissions 
+         The Carbon Dioxide Information Analysis Center (CDIAC) <br>
+        total CO2 emissions of each country in million metric tons </a> </li>
+    </ul>
+    </p>")),
     mainPanel(
       HTML("
       <img src = './images/co2.0.jpg' alt = 'Intro image'>
       <div class = 'intro'>
-          Developed countires have benefited from decades and centuries of industrialization 
-          fueled primarily by fossil fuels. This advancment allowed them to provide their citizens 
-          with a quality of life previously unheard of, polluting the collective global atmosphere 
-          for their individual gain and to facilitate the creation of seemingly endless amounts of 
-          cheap energy. Contrarily this had allowed developed countries to begin to develop  cheap 
-          renewable energy and move away from fossil fuels. The universal desire of devleoping coutries 
-          to themselves extract their resources to better the lives of their citizens, while obviously 
-          damaging to the planet, is therefore understandable. In order to show these relationships 
-          we focused upon the interaction between CO2 emissions, a countries GDP, a countries adobtion 
-          of green energy, and the Human Development Index used by the UN.
+         Starting from the industrial revolution, 
+         our life has changed dramatically from the 
+         traditional manual to mechanized laboring, 
+         which has made our life much easier and more 
+         convenient than ever before. However, everything 
+         has two sides as CO2 emissions surged rapidly 
+         throughout the year which has caused many 
+         controversies on both environmentally to the 
+         earth and physically to the human. In this project, 
+         we are seeking to figure out does this dramatic 
+         increase in CO2 emission worth it or not by seeing 
+         the relationships among GDP per capita, HDI, 
+         renewable energy consumption, and CO2 emission 
+         in the whole world and different countries.
       </div>
       ")
     )
