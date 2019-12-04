@@ -5,7 +5,7 @@ output: html_document
 
 ## What is the relationship between CO2 emissions and GDP per capita, by country and globally?
 
-From our first set of charts, we found a clear correlation between counties with large CO2 emissions and the GDP. Furthermore, the majority of countries had CO2 emissions below 2 million tons, and a GDP around 50k. Another trend to note is that most Western/developed countries, including the United States and most European countries, had CO2 emissions increase exponentially from 1800-present, while many undeveloped countries, such as Uzbekistan, had various dips and rises in their CO2 emissions over the years. 
+From our first set of charts, we found a clear correlation between counties with large CO2 emissions and a relatively large GDP. Another to note is that most developed countries, including the United States and most European countries, had CO2 emissions increase exponentially from 1800-present, while many undeveloped countries, such as Uzbekistan, had various dips and rises in their CO2 emissions over the years. 
 
 There were definitely a few outliers in the correlation graph, namely the countries of Kuwait, Qatar, and the UAE. These countries followed the general trend of CO2 emissions increasing with GDP, but both the CO2 and GDP were much higher than the other countries. Qatar specifically had a CO2 emission rate of almost 9 trillion tons, placing it in the upper echelon of our graph. 
 
